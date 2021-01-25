@@ -1,6 +1,19 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 
 const Footer = (props) => {
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_2eh7043', 'template_6qn9eat', e.target, 'user_jsKWGpnpQB1dSoEYvJrGD')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset()
+      }
+    
 	return (
         <footer id="footer">
         <div className="container">
@@ -51,7 +64,7 @@ const Footer = (props) => {
                 <div className="col-md-4 col-sm-12">
                     <div className="contact-form bottom">
                         <h2>Send a message</h2>
-                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                        <form id="main-contact-form"    onSubmit={sendEmail}>
                             <div className="form-group">
                                 <input type="text" name="name" className="form-control" required="required" placeholder="Name" />
                             </div>
