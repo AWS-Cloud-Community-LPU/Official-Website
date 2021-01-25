@@ -5,9 +5,20 @@ class About extends Component {
 	render(){
 		return(
 			<div className="body">
-				<div className="page-title">
-			        <h1>About us</h1>
-			    </div>
+				    <section id="page-breadcrumb">
+        <div class="vertical-center sun">
+             <div class="container">
+                <div class="row">
+                    <div class="action">
+                        <div class="col-sm-12">
+                            <h1 class="title">About Us</h1>
+                            <p>Description or title</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
 
 			    <section id="about-us">
 			        <div className="container">
@@ -35,90 +46,82 @@ class About extends Component {
 			        <div className="container">
 			            <div className="center fadeInDown">
 			                <h2>Our Team</h2>
-			                <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam</p>
+			                <p className="lead">Photographs are a way of preserving a moment in our lives for the rest of our lives. Many of us have at least been tempted at the flashy array </p>
 			            </div>
 			            <div className="row">
 			                <Team
-			                	img="https://demo.themeum.com/html/corlate/images/team1.png"
-			                	name="Jeffery Poole"
-			                	job="UI/UX Designer"
+			                	img=""
+			                	name="Rajit Paul"
+			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
 			                	linkedin="#"
 			                	pinterest="#"
 			                />
 			                <Team
-			                	img="https://demo.themeum.com/html/corlate/images/team2.png"
-			                	name="Isabelle Dean"
-			                	job="Designer"
+			                	img=""
+			                	name="Pratyush Shukla"
+			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
 			                	linkedin="#"
 			                	pinterest="#"
 			                />
 			                <Team
-			                	img="https://demo.themeum.com/html/corlate/images/team3.png"
-			                	name="Mike Kennedy"
-			                	job="Digital Marketing"
+			                	img=""
+			                	name="Anjali Thakur"
+			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
 			                	linkedin="#"
 			                	pinterest="#"
 			                />
 			                <Team
-			                	img="https://demo.themeum.com/html/corlate/images/team4.png"
-			                	name="Edwin Gross"
-			                	job="BackEnd Developer"
+			                	img=""
+			                	name="Kristina "
+			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
 			                	linkedin="#"
 			                	pinterest="#"
 			                />
 			                <Team
-			                	img="https://demo.themeum.com/html/corlate/images/team5.png"
-			                	name="Mable Schwartz"
-			                	job="FrontEnd Developer"
+			                	img="images/team/prateek.jpg"
+			                	name="Prateek Singh"
+			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
 			                	linkedin="#"
 			                	pinterest="#"
 			                />
 			                <Team
-			                	img="https://demo.themeum.com/html/corlate/images/team6.png"
-			                	name="Adele Washington"
-			                	job="Web Designer"
+			                	img=""
+			                	name="N.Krishna"
+			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
 			                	linkedin="#"
 			                	pinterest="#"
 			                />
                             <Team
-			                	img="https://demo.themeum.com/html/corlate/images/team6.png"
-			                	name="Adele Washington"
-			                	job="Web Designer"
+			                	img=""
+			                	name="Garvit"
+			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
 			                	linkedin="#"
 			                	pinterest="#"
 			                />
                             <Team
-			                	img="https://demo.themeum.com/html/corlate/images/team6.png"
-			                	name="Adele Washington"
-			                	job="Web Designer"
+			                	img=""
+			                	name="Santosh"
+			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
 			                	linkedin="#"
 			                	pinterest="#"
 			                />
-                            <Team
-			                	img="https://demo.themeum.com/html/corlate/images/team6.png"
-			                	name="Adele Washington"
-			                	job="Web Designer"
-			                	facebook="#"
-			                	twitter="#"
-			                	linkedin="#"
-			                	pinterest="#"
-			                />
+                            
 			            </div>
 			        </div>
 			    </section>

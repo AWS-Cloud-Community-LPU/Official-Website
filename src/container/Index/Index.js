@@ -40,26 +40,29 @@ class Index extends Component {
 										<span class="icon-bar"></span>
 									</button>
 
-									<a class="navbar-brand" href="index.html">
-										<h1><img src="images/logo.png" alt="logo" /></h1>
-									</a>
+									
+									<Link to="/index.html " class="navbar-brand">
+									<h1><img src="images/logo.png" alt="logo" /></h1>
+									</Link> 
+										
+									
 									
 								</div>
 								<div class="collapse navbar-collapse">
 									<ul class="nav navbar-nav navbar-right">
-										<li class="active"><a href="index.html">Home</a></li>
+										<li class="active"><Link to="/">Home</Link></li>
 															
-										<li class="dropdown"><a href="">Blog <i class="fa fa-angle-down"></i></a>
+										<li class="dropdown"><Link to="/Blog">Blog <i class="fa fa-angle-down"></i></Link>
 											<ul role="menu" class="sub-menu">
 												<li><a href="">Blog</a></li>
 												<li><a href="">Blog2</a></li>
 												
 											</ul>
 										</li>
-										<li class="dropdown"><a href="">Contact Us</a>
+										<li class="dropdown"><Link to="/Contact">Contact Us</Link>
 
 										</li>                         
-										<li><a href="">Team</a></li>                    
+										<li><Link to ="/About">About Us</Link></li>                    
 									</ul>
 								</div>
 								

@@ -13,11 +13,11 @@ const Footer = (props) => {
                         <h2>Word by AWS</h2>
                         <div className="media">
                             <div className="pull-left">
-                                <a href="#"><img src={props.img} alt="" /></a>
+                                <a href="#"><img src="images/home/profile2.jpg"  alt="" /></a>
                             </div>
                             <div className="media-body">
-                                <blockquote>{props.desc}</blockquote>
-                                <h3><a href="#">- {props.name}</a></h3>
+                                <blockquote>What Can I do With AWS?</blockquote>
+                                <h3><a href="#">- Some Random Dude</a></h3>
                             </div>
                          </div>
                         <div className="media">

@@ -5,15 +5,26 @@ class Contact extends Component {
 	render(){
 		return(
 			<div className="body">
-				<div className="page-title">
-			        <h1>Contact us</h1>
-			    </div>
+				    <section id="page-breadcrumb">
+						<div class="vertical-center sun">
+							<div class="container">
+								<div class="row">
+									<div class="action">
+										<div class="col-sm-12">
+											<h1 class="title">Contact us</h1>
+											<p>Something</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 
 			    <section id="contact-page">
 			        <div className="container">
 			            <div className="large-title text-center">        
 			                <h2>Drop Your Message</h2>
-			                <p>All users on MySpace will know that there are millions of people out there. Every day besides so many people joining this community.</p>
+			                <p>All users on AWS will know that there are millions of people out there. Every day besides so many people joining this community.</p>
 			            </div> 
 			            <div className="row contact-wrap"> 
 			               
@@ -31,10 +42,7 @@ class Contact extends Component {
 			                            <label>Phone</label>
 			                            <input type="number" className="form-control"/>
 			                        </div>
-			                        <div className="form-group">
-			                            <label>Company Name</label>
-			                            <input type="text" className="form-control"/>
-			                        </div>                        
+			                                                
 			                    </div>
 			                    <div className="col-sm-5">
 			                        <div className="form-group">

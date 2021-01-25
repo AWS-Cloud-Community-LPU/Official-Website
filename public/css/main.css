@@ -747,6 +747,75 @@ ul.sub-menu {
 /*************************
 *******About Us Page******
 **************************/
+.about-img{
+  padding-right: 70px;
+}
+
+.about-content{
+  color: #989898;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 80px;
+}
+
+.about-content h2{
+  font-size: 48px;
+  color: #333333;
+  font-weight: 700;
+  margin: 0 0 25px;
+}
+
+#team-area{
+  background-color: #FAFAFA;
+}
+
+.single-team img{
+  width: 100%;
+}
+
+.single-team{
+  margin-bottom: 30px;
+}
+.single-team .inner{
+  background: #fff;
+  text-align: center;    
+  color: #989898;
+  font-size: 16px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.single-team .inner:hover{
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+.single-team .team-content{
+  padding: 30px 0;
+}
+.single-team h4{
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 0;
+}
+.single-team .team-social{
+  margin-top: 15px;
+}
+.single-team .team-social a{
+  color: #989898;
+  padding: 5px;
+  margin: 0 10px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.single-team .team-social a:hover{
+  color: #EC5538;
+}
 
 #action , 
 #page-breadcrumb{
