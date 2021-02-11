@@ -13,7 +13,7 @@ class Blog extends Component {
                     <div class="action">
                         <div class="col-sm-12">
                             <h1 class="title">Blog</h1>
-                            <p>Title</p>
+                            <p></p>
                         </div>
                     </div>
                 </div>

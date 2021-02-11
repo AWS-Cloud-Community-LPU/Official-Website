@@ -15,7 +15,7 @@ class Home extends Component {
                                     <div className="slide-text">
                                         <h1>We Are AWS-CLOUD Community LPU</h1>
                                         <p>Here comes some intro/brief discription </p>
-                                        <a href="#" className="btn btn-common">Read More</a>
+                                        <a href="About" className="btn btn-common">Read More</a>
                                     </div>
                                     <img src="images/home/slider/hill.png" className="slider-hill" alt="slider image"/>
                                     <img src="images/home/slider/house.png" className="slider-house" alt="slider image"/>
@@ -30,26 +30,36 @@ class Home extends Component {
 
 
                     <section id="features">
-                        <div className="container">
-                            <div className="row">
-                                
+                    
+                    <div className="container">
+                    
+                    <div className="row">
+                                <div className="single-features">
+                                    <div className="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                        
+                                        <iframe  width="1280" height="720" src="https://www.youtube.com/embed/xZ3k7Fd6_eU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    
+                                </div>
+                                </div>
+                                <div className="" data-wow-duration="500ms" data-wow-delay="300ms">
+                                        <h2>AWS re:Invent 2020 - Keynote with Andy Jassy</h2>
+                                        <p>Andy Jassy, CEO of Amazon Web Services, delivers his AWS re:Invent 2020 keynote, featuring the latest news and announcements, including the launches of Habana Gaudi-based Amazon EC2 instances, AWS Trainium, Amazon ECS Anywhere, Amazon EKS Anywhere, Lambda Container Support, AWS Proton, gp3 volumes for Amazon EBS, io2 Block Express for Amazon EBS, Amazon Aurora Serverless v2, Babelfish for Amazon Aurora PostgreSQL, AWS Glue Elastic Views, Amazon SageMaker Data Wrangler, Amazon SageMaker Feature Store, Amazon SageMaker Pipelines, Amazon DevOps Guru, Amazon QuickSight Q, Amazon Connect Wisdom, Amazon Connect Customer Profiles, Real-Time Contact Lens for Amazon Connect, Amazon Connect Tasks, Amazon Connect Voice ID, Amazon Monitron, Amazon Lookout for Equipment, AWS Panorama Appliance, AWS Panorama SDK, AWS Outposts in two new smaller sizes, and 12 additional AWS Local Zones. Guest speakers include Lori Beer, of JPMorgan Chase, Blake Scholl, of Boom, and David Gitlin, of Carrier.</p>
+                                    </div>
+                                </div>
                                 <Features
-			                	imgleft="images/home/image2.png"
-			                	titleleft="Something"
-			                	descleft="Some Content or fact or something"
-			                    />
+			                	imgright="images/home/aws11.jpg"
+			                	titleright="What is Cloud Computing?"
+			                	descright="Cloud computing is the delivery of online services (such as servers, databases, software) to users. With the help of cloud computing, storing data on local machines is not required. It helps you access data from a remote server. Moreover, it is also used to store and access data from anywhere across the world."
+                                />
                                 <Features
-			                	imgright="images/home/image2.png"
-			                	titleright="Something"
-			                	descright="Some Content or fact or something"
+			                	imgleft="images/home/aws22.jpg"
+			                	titleleft="What is AWS"
+			                	descleft="Amazon web service is an online platform that provides scalable and cost-effective cloud computing solutions.
+
+AWS is a broadly adopted cloud platform that offers several on-demand operations like compute power, database storage, content delivery, etc., to help corporates scale and grow."
 			                    />
-                                <Features
-			                	imgleft="images/home/image2.png"
-			                	titleleft="Something"
-			                	descleft="Some Content or fact or something"
-			                    />
-                            </div>
-                        </div>
+                            
                     </section>
 
 			   

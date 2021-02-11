@@ -2,7 +2,8 @@ import React from 'react';
 
 const Features = (props) => {
 	return(
-	
+        <section id="features">
+
         <div className="container">
             <div className="row">
                 <div className="single-features">
@@ -22,10 +23,12 @@ const Features = (props) => {
                     <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src={props.imgright} class="img-responsive" alt="" />
                     </div>
+                    
                 </div>
                 
             </div>
         </div>
+        </section>
     
 	)
 }

@@ -16,50 +16,46 @@ class Index extends Component {
 			<Router>
 				<div>
 					<header id="header">      
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-12 overflow">
-								<div class="social-icons pull-right">
-										<ul class="nav nav-pills">
-											<li><a href=""><i class="fa fa-facebook"></i></a></li>
-											<li><a href=""><i class="fa fa-twitter"></i></a></li>
-											<li><a href=""><i class="fa fa-youtube"></i></a></li>
-											<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+						<div className="container">
+							<div className="row">
+								<div className="col-sm-12 overflow">
+								<div className="social-icons pull-right">
+										<ul className="nav nav-pills">
+											<li><a href="https://www.facebook.com/AWSCloudCommunityLPU"><i className="fa fa-facebook"></i></a></li>
+											<li><a href="https://www.instagram.com/awscloudcommunity_lpu/"><i className="fa fa-instagram"></i></a></li>
+											<li><a href="https://www.youtube.com/channel/UCmnQggVDZY8ht6UYekmzQlg/featured"><i className="fa fa-youtube"></i></a></li>
+											<li><a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><i className="fa fa-linkedin"></i></a></li>
 										</ul>
 									</div> 
 								</div>
 							</div>
 						</div>
-						<div class="navbar navbar-inverse" role="banner">
-							<div class="container">
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
+						<div className="navbar navbar-inverse" role="banner">
+							<div className="container">
+								<div className="navbar-header">
+									<button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+										<span className="sr-only">Toggle navigation</span>
+										<span className="icon-bar"></span>
+										<span className="icon-bar"></span>
+										<span className="icon-bar"></span>
 									</button>
 
 									
-									<Link to="/index.html " class="navbar-brand">
+									<Link to="/index.html " className="navbar-brand">
 									<h1><img src="images/logo.png" alt="logo" /></h1>
 									</Link> 
 										
 									
 									
 								</div>
-								<div class="collapse navbar-collapse">
-									<ul class="nav navbar-nav navbar-right">
-										<li class="active"><Link to="/">Home</Link></li>
+								<div className="collapse navbar-collapse">
+									<ul className="nav navbar-nav navbar-right">
+										<li className="active"><Link to="/">Home</Link></li>
 															
-										<li class="dropdown"><Link to="/Blog">Blog <i class="fa fa-angle-down"></i></Link>
-											<ul role="menu" class="sub-menu">
-												<li><a href="">Blog</a></li>
-												<li><a href="">Blog2</a></li>
-												
-											</ul>
+										<li className="dropdown"><Link to="/Blog">Blog </Link>
+											
 										</li>
-										<li class="dropdown"><Link to="/Contact">Contact Us</Link>
+										<li className="dropdown"><Link to="/Contact">Contact Us</Link>
 
 										</li>                         
 										<li><Link to ="/About">About Us</Link></li>                    
