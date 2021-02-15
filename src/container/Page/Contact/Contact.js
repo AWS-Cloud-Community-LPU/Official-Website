@@ -43,7 +43,8 @@ class Contact extends Component {
                         
                         
                     </div>
-                </div><div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                </div>
+				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
 						<a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><img src="images/home/insta.jpg" alt="" /></a>
@@ -53,7 +54,8 @@ class Contact extends Component {
                         
                         
                     </div>
-                </div><div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                </div>
+				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
 						<a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><img src="images/home/facebook.jpg" alt="" /></a>
@@ -64,6 +66,7 @@ class Contact extends Component {
                         
                     </div>
                 </div>
+				
             </div>
         </div>
     </section>

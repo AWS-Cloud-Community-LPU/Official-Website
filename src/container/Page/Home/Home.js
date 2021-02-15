@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Features from '../../../component/Features/Features';
 import Clients from '../../../component/Clients/Clients';
 import Footer from '../../../component/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 class Home extends Component {
 	render(){
@@ -14,8 +15,8 @@ class Home extends Component {
                                 <div className="main-slider">
                                     <div className="slide-text">
                                         <h1>We Are AWS-CLOUD Community LPU</h1>
-                                        <p>Here comes some intro/brief discription </p>
-                                        <a href="About" className="btn btn-common">Read More</a>
+                                        <p>Share Learn And Implement</p>
+                                        <Link to="About" className="btn btn-common">Read More</Link>
                                     </div>
                                     <img src="images/home/slider/hill.png" className="slider-hill" alt="slider image"/>
                                     <img src="images/home/slider/house.png" className="slider-house" alt="slider image"/>
@@ -35,7 +36,7 @@ class Home extends Component {
                     
                     <div className="row">
                                 <div className="single-features">
-                                    <div className="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                    <div className=" video-container" data-wow-duration="500ms" data-wow-delay="300ms">
                                         
                                         <iframe  width="1280" height="720" src="https://www.youtube.com/embed/xZ3k7Fd6_eU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
@@ -71,7 +72,7 @@ AWS is a broadly adopted cloud platform that offers several on-demand operations
                                     <div className="action take-tour">
                                         <div className="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
                                             <h1 className="title">Our Upcoming Event</h1>
-                                            <p>Description Aabout it.</p>
+                                            <p>Induction Drive for.</p>
                                         </div>
                                         <div className="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                                             <div className="tour-button">
@@ -94,7 +95,7 @@ AWS is a broadly adopted cloud platform that offers several on-demand operations
 
 			    
 
-			    
+                
 
 			</div>
 		)

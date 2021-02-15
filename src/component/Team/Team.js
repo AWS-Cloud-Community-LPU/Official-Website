@@ -14,7 +14,7 @@ const Team = (props) => {
 			            <a className="fa fa-facebook" href="{props.facebook}"></a>
 			            <a className="fa fa-twitter" href="{props.twitter}"></a>
 			            <a className="fa fa-linkedin" href="{props.linkedin}"></a>
-			            <a className="fa fa-pinterest" href="{props.pinterest}"></a>
+			            <a className="fa fa-instagram" href="{props.instagram}"></a>
 			        </div>
 			    </div>
 			</div>

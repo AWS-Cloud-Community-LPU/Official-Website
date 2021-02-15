@@ -50,14 +50,14 @@ const Footer = (props) => {
                     <div className="contact-info bottom">
                         <h2>Contacts</h2>
                         <address>
-                        E-mail: <a href="mailto:awscloudcommunity@email.com">awscloudcommunity@email.com</a> <br /> 
-                        Phone: 123456789 <br /> 
+                        E-mail: <a href="mailto:awscloudcommunity@email.com">awscloudcommunity@gmail.com</a> <br /> 
+                        Phone: 8017874250 <br /> 
                         
                         </address>
 
                         <h2>Address</h2>
                         <address>
-                       Should we put adress?
+                        Jalandhar - Delhi, Grand Trunk Rd, <br />Phagwara, Punjab 144001
                         </address>
                     </div>
                 </div>

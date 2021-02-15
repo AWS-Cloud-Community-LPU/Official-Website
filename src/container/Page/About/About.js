@@ -12,7 +12,7 @@ class About extends Component {
                     <div class="action">
                         <div class="col-sm-12">
                             <h1 class="title">About Us</h1>
-                            <p>Description or title</p>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ class About extends Component {
 			                <div className="col-md-5">
 			                    <div className="about-content">
 			                        <h2>Who we are</h2>
-			                        <p>Photographs are a way of preserving a moment in our lives for the rest of our lives. Many of us have at least been tempted at the flashy array of photo printers which seemingly leap off the shelves at even the least tech-savvy. It surely seems old fashioned to talk about 35mm film and non-digital cameras in today’s day and age.</p>
+			                        <p>The AWS Community LPU offers technical resources, mentorship, and networking opportunities to AWS enthusiasts and emerging thought leaders who are passionate about sharing knowledge and connecting with the technical community.</p>
 			                    </div>
 			                </div>
 			            </div>
@@ -46,80 +46,81 @@ class About extends Component {
 			        <div className="container">
 			            <div className="center fadeInDown">
 			                <h2>Our Team</h2>
-			                <p className="lead">Photographs are a way of preserving a moment in our lives for the rest of our lives. Many of us have at least been tempted at the flashy array </p>
+			                <p className="lead"></p>
 			            </div>
 			            <div className="row">
 			                <Team
-			                	img=""
+			                	img="images/aboutus/Rajit.jpg"
 			                	name="Rajit Paul"
 			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
 			                	linkedin="#"
-			                	pinterest="#"
+			                	instagram="#"
 			                />
 			                <Team
-			                	img=""
+			                	img="images/aboutus/Pratyush.jpg"
 			                	name="Pratyush Shukla"
 			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
 			                	linkedin="#"
-			                	pinterest="#"
+			                	instagram="#"
 			                />
 			                <Team
-			                	img=""
+			                	img="images/aboutus/Anjali.jpeg"
 			                	name="Anjali Thakur"
 			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
 			                	linkedin="#"
-			                	pinterest="#"
+			                	instagram="#"
 			                />
 			                <Team
-			                	img=""
+			                	img="images/aboutus/Kristina.jpg"
 			                	name="Kristina "
 			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
 			                	linkedin="#"
-			                	pinterest="#"
+			                	instagram="#"
 			                />
-			                <Team
-			                	img="images/team/prateek.jpg"
-			                	name="Prateek Singh"
-			                	job="Core Technical Member"
-			                	facebook="#"
-			                	twitter="#"
-			                	linkedin="#"
-			                	pinterest="#"
-			                />
-			                <Team
-			                	img=""
-			                	name="N.Krishna"
-			                	job="Core Technical Member"
-			                	facebook="#"
-			                	twitter="#"
-			                	linkedin="#"
-			                	pinterest="#"
-			                />
-                            <Team
-			                	img=""
+							<Team
+			                	img="images/aboutus/Garvit.jpg"
 			                	name="Garvit"
 			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
 			                	linkedin="#"
-			                	pinterest="#"
+			                	instagram="#"
+			                />
+			                
+			                <Team
+			                	img="images/aboutus/Krishna.jpg"
+			                	name="N.Krishna"
+			                	job="Core Technical Member"
+			                	facebook="#"
+			                	twitter="#"
+			                	linkedin="#"
+			                	instagram="#"
 			                />
                             <Team
-			                	img=""
+			                	img="images/aboutus/prateek.jpg"
+			                	name="Prateek Singh"
+			                	job="Core Technical Member"
+			                	facebook="#"
+			                	twitter="#"
+			                	linkedin="#"
+			                	instagram="#"
+			                />
+                            <Team
+			                	img="images/aboutus/Santosh.png"
 			                	name="Santosh"
 			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
 			                	linkedin="#"
-			                	pinterest="#"
+			                	instagram="#"
 			                />
                             
 			            </div>
