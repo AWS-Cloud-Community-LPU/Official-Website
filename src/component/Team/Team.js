@@ -11,10 +11,10 @@ const Team = (props) => {
 			        <h4>{props.name}</h4>
 			    	<span className="desg">{props.job}</span>
 			        <div className="team-social">
-			            <a className="fa fa-facebook" href="{props.facebook}"></a>
-			            <a className="fa fa-twitter" href="{props.twitter}"></a>
-			            <a className="fa fa-linkedin" href="{props.linkedin}"></a>
-			            <a className="fa fa-instagram" href="{props.instagram}"></a>
+{props.facebook!='#'&&<a className="fa fa-facebook"target="_blank" href={props.facebook}></a>}
+			            			            {props.twitter!="#"&&<a className="fa fa-twitter" target="_blank"href={props.twitter}></a>}
+			            {props.linkedin!="#"&&<a className="fa fa-linkedin" target="_blank"href={props.linkedin}></a>}
+			            {props.instagram!="#"&&<a className="fa fa-instagram" target="_blank"href={props.instagram}></a>}
 			        </div>
 			    </div>
 			</div>

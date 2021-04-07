@@ -232,7 +232,7 @@
   color:#2AA7DC;
 }
 
-.social-icons ul li a:hover .fa-google-plus {
+.social-icons ul li a:hover .fa-google-plus,.fa-instagram:hover,.fa-youtube:hover {
   color:#A22523;
 }
 
@@ -2772,4 +2772,7 @@ span.stButton_gradient,
   -webkit-box-shadow: 0 0 0 5px rgba(0,0,0,.1) inset;
   border-radius: 100%;
   margin: 10px 0;
+}
+#AboutUsFirstImg{
+  width:600px
 }
