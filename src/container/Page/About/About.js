@@ -59,15 +59,6 @@ class About extends Component {
 			                	instagram="#"
 			                />
 			                <Team
-			                	img="images/aboutus/Pratyush.jpg"
-			                	name="Pratyush Shukla"
-			                	job="Core Technical Member"
-			                	facebook="https://www.facebook.com/hawk.praxs"
-			                	twitter="#"
-			                	linkedin="#"
-			                	instagram="#"
-			                />
-			                <Team
 			                	img="images/aboutus/Anjali.jpeg"
 			                	name="Anjali Thakur"
 			                	job="Core Technical Member"
@@ -75,15 +66,6 @@ class About extends Component {
 			                	twitter="#"
 			                	linkedin="https://www.linkedin.com/in/anjalithakur21/"
 			                	instagram="#"
-			                />
-			                <Team
-			                	img="images/aboutus/Kristina.jpg"
-			                	name="Kristina "
-			                	job="Core Technical Member"
-			                	facebook="https://www.facebook.com/kristina.barooah"
-			                	twitter="https://twitter.com/KristinaBarooah"
-			                	linkedin="https://www.linkedin.com/in/kristina-barooah-322916169"
-			                	instagram="https://www.instagram.com/kristinasarmabarooah/"
 			                />
 							<Team
 			                	img="images/aboutus/Garvit.jpg"
@@ -95,15 +77,6 @@ class About extends Component {
 			                	instagram="https://www.instagram.com/garvit_._/"
 			                />
 			                
-			                <Team
-			                	img="images/aboutus/Krishna.jpg"
-			                	name="N.Krishna"
-			                	job="Core Technical Member"
-			                	facebook="#"
-			                	twitter="#"
-			                	linkedin="#"
-			                	instagram="#"
-			                />
                             <Team
 			                	img="images/aboutus/prateek.jpg"
 			                	name="Prateek Singh"
@@ -123,6 +96,14 @@ class About extends Component {
 			                	instagram="https://www.instagram.com/santosh__pottumuthu"
 			                />
                             
+			                <Team img="images/aboutus/Kristina.jpg"
+			                	name="Kristina "
+			                	job="Core Technical Member"
+			                	facebook="https://www.facebook.com/kristina.barooah"
+			                	twitter="https://twitter.com/KristinaBarooah"
+			                	linkedin="https://www.linkedin.com/in/kristina-barooah-322916169"
+			                	instagram="https://www.instagram.com/kristinasarmabarooah/"
+			                />
 			            </div>
 			        </div>
 			    </section>

@@ -791,7 +791,7 @@ ul.sub-menu {
 }
 
 .single-team img{
-  width: 100%;
+  width:min-content; 
 }
 
 .single-team{
