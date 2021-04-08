@@ -25,7 +25,7 @@ class About extends Component {
 			            <div className="row">
 			                <div className="col-md-7">
 			                    <div className="about-img">
-			                        <img src="https://demo.themeum.com/html/corlate/images/about-img.png" alt=""/>
+			                        <img id="AboutUsFirstImg" src="images/aboutus/FirstOne.jpg" alt=""/>
 			                    </div>
 			                </div>
 			                <div className="col-md-5">
@@ -53,18 +53,9 @@ class About extends Component {
 			                	img="images/aboutus/Rajit.jpg"
 			                	name="Rajit Paul"
 			                	job="Core Technical Member"
-			                	facebook="#"
-			                	twitter="#"
-			                	linkedin="#"
-			                	instagram="#"
-			                />
-			                <Team
-			                	img="images/aboutus/Pratyush.jpg"
-			                	name="Pratyush Shukla"
-			                	job="Core Technical Member"
-			                	facebook="#"
-			                	twitter="#"
-			                	linkedin="#"
+			                	facebook="https://www.facebook.com/rajit.paul/"
+			                	twitter="https://twitter.com/RajitPaul"
+			                	linkedin="https://www.linkedin.com/in/rajitpaul/"
 			                	instagram="#"
 			                />
 			                <Team
@@ -73,56 +64,46 @@ class About extends Component {
 			                	job="Core Technical Member"
 			                	facebook="#"
 			                	twitter="#"
-			                	linkedin="#"
-			                	instagram="#"
-			                />
-			                <Team
-			                	img="images/aboutus/Kristina.jpg"
-			                	name="Kristina "
-			                	job="Core Technical Member"
-			                	facebook="#"
-			                	twitter="#"
-			                	linkedin="#"
+			                	linkedin="https://www.linkedin.com/in/anjalithakur21/"
 			                	instagram="#"
 			                />
 							<Team
 			                	img="images/aboutus/Garvit.jpg"
 			                	name="Garvit"
 			                	job="Core Technical Member"
-			                	facebook="#"
-			                	twitter="#"
-			                	linkedin="#"
-			                	instagram="#"
+			                	facebook="https://www.facebook.com/garvit9j"
+			                	twitter="https://twitter.com/garvit__joshi"
+			                	linkedin="https://www.linkedin.com/in/garvit--joshi/"
+			                	instagram="https://www.instagram.com/garvit_._/"
 			                />
 			                
-			                <Team
-			                	img="images/aboutus/Krishna.jpg"
-			                	name="N.Krishna"
-			                	job="Core Technical Member"
-			                	facebook="#"
-			                	twitter="#"
-			                	linkedin="#"
-			                	instagram="#"
-			                />
                             <Team
 			                	img="images/aboutus/prateek.jpg"
 			                	name="Prateek Singh"
 			                	job="Core Technical Member"
-			                	facebook="#"
-			                	twitter="#"
-			                	linkedin="#"
-			                	instagram="#"
+			                	facebook="https://m.facebook.com/profile.php?ref=bookmarks"
+			                	twitter="https://twitter.com/onebutnotalone"
+			                	linkedin="https://www.linkedin.com/in/prateek-singh-42356b12b"
+			                	instagram="https://www.instagram.com/_prateek_singh_/"
 			                />
                             <Team
 			                	img="images/aboutus/Santosh.png"
 			                	name="Santosh"
 			                	job="Core Technical Member"
 			                	facebook="#"
-			                	twitter="#"
-			                	linkedin="#"
-			                	instagram="#"
+			                	twitter="https://twitter.com/skpottumuthu"
+			                	linkedin="https://www.linkedin.com/in/santosh-kumar-pottumuthu/"
+			                	instagram="https://www.instagram.com/santosh__pottumuthu"
 			                />
                             
+			                <Team img="images/aboutus/Kristina.jpg"
+			                	name="Kristina "
+			                	job="Core Technical Member"
+			                	facebook="https://www.facebook.com/kristina.barooah"
+			                	twitter="https://twitter.com/KristinaBarooah"
+			                	linkedin="https://www.linkedin.com/in/kristina-barooah-322916169"
+			                	instagram="https://www.instagram.com/kristinasarmabarooah/"
+			                />
 			            </div>
 			        </div>
 			    </section>

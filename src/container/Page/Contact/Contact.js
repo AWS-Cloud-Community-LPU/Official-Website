@@ -25,7 +25,7 @@ class Contact extends Component {
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-						<a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><img src="images/home/linkin.jpg" alt="" /></a>
+						<a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><img src="images/home/lkd.png" alt="" /></a>
                             
                         </div>
 						<a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><h2> Linked In</h2></a>
@@ -36,7 +36,7 @@ class Contact extends Component {
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-						<a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><img src="images/home/yotube.jpg" alt="" /></a>
+						<a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><img src="images/home/youtube.png" alt="" /></a>
                             
                         </div>
 						<a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><h2>Youtube</h2></a>
@@ -47,7 +47,7 @@ class Contact extends Component {
 				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-						<a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><img src="images/home/insta.jpg" alt="" /></a>
+						<a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><img src="images/home/insta.png" alt="" /></a>
                             
                         </div>
 						<a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><h2>Instagram</h2></a>
@@ -58,7 +58,7 @@ class Contact extends Component {
 				<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-						<a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><img src="images/home/facebook.jpg" alt="" /></a>
+						<a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><img src="images/home/facebook.png" alt="" /></a>
                             
                         </div>
 						<a href="https://www.linkedin.com/company/aws-cloud-community-lpu/"><h2>Facebook</h2></a>

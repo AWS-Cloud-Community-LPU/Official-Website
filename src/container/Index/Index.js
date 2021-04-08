@@ -12,6 +12,27 @@ import Recruitment from '../Page/Recruitment/Recruitment';
 
 
 class Index extends Component {
+
+		constructor(props){
+		super(props);
+		this.state={
+			active:1,
+		}
+	}
+	
+	homeClicked(){
+		this.setState({active:1,});
+	}
+	blogClicked(){
+		this.setState({active:2,});
+	}
+	contClicked(){
+		this.setState({active:3,});
+	}
+	aboutClicked(){
+		this.setState({active:4,});
+	}
+
 	render(){
 		return(
 			<Router>
@@ -51,16 +72,18 @@ class Index extends Component {
 								</div>
 								<div className="collapse navbar-collapse">
 									<ul className="nav navbar-nav navbar-right">
-										<li className="active"><Link to="/">Home</Link></li>
+										<li className={this.state.active==1 && "active"} onClick={() => {this.homeClicked()}}><Link to="/">Home</Link></li>
 															
-										<li className="dropdown"><Link to="/Blog">Blog </Link>
+										<li className={this.state.active==2 && "active"} onClick={() => {this.blogClicked()}}><Link to="/Blog">Blog </Link>
 											
 										</li>
-										<li className="dropdown"><Link to="/Contact">Contact Us</Link>
+										<li className={this.state.active==3 && "active"} onClick={() => {this.contClicked()}}><Link to="/Contact">Contact Us</Link>
 
 										</li>                         
-										<li><Link to ="/About">About Us</Link></li>  
-										<li><Link to ="/Recruitment">Recruitment</Link></li>                  
+
+										<li className={this.state.active==4 && "active"} onClick={() => {this.aboutClicked()}}><Link to ="/About">About Us</Link></li>  
+										<li className={this.state.active==5 && "active"} onClick={() => {this.aboutClicked()}}><Link to ="/Recruitment">Recruitment</Link></li>                  
+
 									</ul>
 								</div>
 								
@@ -68,7 +91,7 @@ class Index extends Component {
 						</div>
 					</header>
 
-					
+				
 					<Route path="/" exact component={Home} />
 					<Route path="/contact/" component={Contact} />
 					<Route path="/about/" component={About} />
