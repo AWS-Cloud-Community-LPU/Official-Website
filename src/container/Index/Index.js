@@ -6,6 +6,7 @@ import Home from '../Page/Home/Home';
 import Contact from '../Page/Contact/Contact';
 import About from '../Page/About/About';
 import Blog from '../Page/Blog/Blog';
+import Recruitment from '../Page/Recruitment/Recruitment';
 
 
 
@@ -58,7 +59,8 @@ class Index extends Component {
 										<li className="dropdown"><Link to="/Contact">Contact Us</Link>
 
 										</li>                         
-										<li><Link to ="/About">About Us</Link></li>                    
+										<li><Link to ="/About">About Us</Link></li>  
+										<li><Link to ="/Recruitment">Recruitment</Link></li>                  
 									</ul>
 								</div>
 								
@@ -71,7 +73,7 @@ class Index extends Component {
 					<Route path="/contact/" component={Contact} />
 					<Route path="/about/" component={About} />
 					<Route path="/blog/" component={Blog} />
-					
+					<Route path="/recruitment/" component={Recruitment} />
 
 					<Footer/>
 				</div>
