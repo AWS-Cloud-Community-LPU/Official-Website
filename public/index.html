@@ -44,6 +44,29 @@
     <title>AWS</title>
   </head>
   <body>
+  <form name="contact-form" netlify netlify-honeypot="bot-field" action="/" hidden>
+                            <div className="form-group">
+                                <input type="text" name="name" className="form-control" required="required" placeholder="Name" />
+                            </div>
+                            <div className="form-group">
+                                <input type="email" name="email" className="form-control" required="required" placeholder="Email Id"/>
+                            </div>
+                            <div className="form-group">
+                                <textarea type="tel" name="phonenum" id="phone" required="required" className="form-control"  placeholder="Phone Number"></textarea>
+                            </div>   
+                            <div className="form-group">
+                                <textarea name="uniname"  required="required" className="form-control" placeholder="University Name"></textarea>
+                            </div> 
+                            <div className="form-group">
+                                <textarea name="curyear"  required="required" className="form-control" placeholder="Current Year"></textarea>
+                            </div> 
+                            <div className="form-group">
+                                <textarea name="whyjoin" id="message" required="required" className="form-control" rows="8" placeholder="Why you want to join Community"></textarea>
+                            </div> 
+                            <div className="form-group">
+                                <textarea name="expertise"  required="required" className="form-control"  placeholder="Field of Expertise(eg:content creater)"></textarea>
+                            </div>
+  </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
