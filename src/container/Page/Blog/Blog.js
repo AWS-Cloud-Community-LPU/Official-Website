@@ -20,13 +20,12 @@ class Blog extends Component {
             </div>
         </div>
    </section>
-    
-        <section id="blog" class="padding-top">
+   <section id="blog" class="padding-top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-9 col-sm-7">
                         <div class="row">
-                             <div class="col-sm-12 col-md-12">
+                            <div class="col-sm-12 col-md-12">
                                 <div class="single-blog single-column">
                                     <div class="post-thumb">
                                         <a href="blogdetails.html"><img src="images/blog/EC2.jfif" class="img-responsive" alt="" /></a>
@@ -85,6 +84,7 @@ class Blog extends Component {
                 </div>
             </div>
         </section>
+      
         </div>
             
 		)
