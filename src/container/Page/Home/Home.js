@@ -38,7 +38,7 @@ class Home extends Component {
                                 <div className="single-features">
                                     <div className=" video-container" data-wow-duration="500ms" data-wow-delay="300ms">
                                         
-                                        <iframe  width="1280" height="720" src="https://www.youtube.com/embed/xZ3k7Fd6_eU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <iframe title="HomePageIframe" width="1280" height="720" src="https://www.youtube.com/embed/xZ3k7Fd6_eU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                     
                                 </div>
@@ -76,7 +76,7 @@ AWS is a broadly adopted cloud platform that offers several on-demand operations
                                         </div>
                                         <div className="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                                             <div className="tour-button">
-                                                <a target="_blank"href="https://bit.ly/2POa8PY" className="btn btn-common">GO TO EVENT</a>
+                                                <a rel="noreferrer"target="_blank"href="https://bit.ly/2POa8PY" className="btn btn-common">GO TO EVENT</a>
                                             </div>
                                         </div>
                                     </div>
