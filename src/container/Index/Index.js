@@ -31,9 +31,12 @@ class Index extends Component {
 	aboutClicked(){
 		this.setState({active:4,});
 	}
-	rectClicked(){
+
+	recruitmentClicked(){
 		this.setState({active:5,});
 	}
+
+
 	render(){
 		return(
 			<Router>
@@ -75,15 +78,18 @@ class Index extends Component {
 									<ul className="nav navbar-nav navbar-right">
 									<li className={this.state.active==1 && "active"} onClick={() => {this.homeClicked()}}><Link to="/">Home</Link></li>
 															
-															<li className={this.state.active==2 && "active"} onClick={() => {this.blogClicked()}}><Link to="/Blog">Blog </Link>
-																
-															</li>
-															<li className={this.state.active==3 && "active"} onClick={() => {this.contClicked()}}><Link to="/Contact">Contact Us</Link>
-					
-															</li>                         
-					
-															<li className={this.state.active==4 && "active"} onClick={() => {this.aboutClicked()}}><Link to ="/About">About Us</Link></li>  
-															<li className={this.state.active==5 && "active"} onClick={() => {this.rectClicked()}}><Link to ="/Recruitment">Recruitment</Link></li>                
+
+										<li className={this.state.active==2 && "active"} onClick={() => {this.blogClicked()}}><Link to="/Blog">Blog </Link>
+											
+										</li>
+										<li className={this.state.active==3 && "active"} onClick={() => {this.contClicked()}}><Link to="/Contact">Contact Us</Link>
+
+										</li>                         
+
+										<li className={this.state.active==4 && "active"} onClick={() => {this.aboutClicked()}}><Link to ="/About">About Us</Link></li>  
+										<li className={this.state.active==5 && "active"} onClick={() => {this.recruitmentClicked()}}><Link to ="/Recruitment">Recruitment</Link></li>                  
+
+
 									</ul>
 								</div>
 								
