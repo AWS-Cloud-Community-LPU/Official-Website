@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
-
+import Features from '../../../component/Features/Features';
+import Clients from '../../../component/Clients/Clients';
+import Footer from '../../../component/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 class Recruitment extends Component {
 	render(){
@@ -11,10 +14,7 @@ class Recruitment extends Component {
 			<div className="col-sm-7 wow fadeInRight">
                     <div className="contact-form bottom">
                         <h2>Send a message</h2>
-                        <form id="main-contact-form" name="contact-form" method="POST" data-netlify="true">
-                        <div className="form-group">
-                                <input type="hidden" name="form-name" value="contact-form"  />
-                            </div>
+                        <form id="main-contact-form" name="contact" method="POST" data-netlify="true">
                             <div className="form-group">
                                 <input type="text" name="name" className="form-control" required="required" placeholder="Name" />
                             </div>
@@ -22,19 +22,19 @@ class Recruitment extends Component {
                                 <input type="email" name="email" className="form-control" required="required" placeholder="Email Id"/>
                             </div>
                             <div className="form-group">
-                                <textarea type="tel" name="phonenum" id="phone" required="required" className="form-control"  placeholder="Phone Number"></textarea>
+                                <textarea type="tel" name="message" id="phone" required="required" className="form-control"  placeholder="Phone Number"></textarea>
                             </div>   
                             <div className="form-group">
-                                <textarea name="uniname"  required="required" className="form-control" placeholder="University Name"></textarea>
+                                <textarea name="message"  required="required" className="form-control" placeholder="University Name"></textarea>
                             </div> 
                             <div className="form-group">
-                                <textarea name="curyear"  required="required" className="form-control" placeholder="Current Year"></textarea>
+                                <textarea name="message"  required="required" className="form-control" placeholder="Current Year"></textarea>
                             </div> 
                             <div className="form-group">
-                                <textarea name="whyjoin" id="message" required="required" className="form-control" rows="8" placeholder="Why you want to join Community"></textarea>
+                                <textarea name="message" id="message" required="required" className="form-control" rows="8" placeholder="Why you want to join Community"></textarea>
                             </div> 
                             <div className="form-group">
-                                <textarea name="expertise"  required="required" className="form-control"  placeholder="Field of Expertise(eg:content creater)"></textarea>
+                                <textarea name="message"  required="required" className="form-control"  placeholder="Field of Expertise(eg:content creater)"></textarea>
                             </div>                      
                             <div className="form-group">
                                 <input type="submit" name="submit" className="btn btn-submit" value="Submit"/>
