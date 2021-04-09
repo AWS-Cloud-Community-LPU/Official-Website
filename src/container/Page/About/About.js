@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import Team from '../../../component/Team/Team';
 
 class About extends Component {
+	
 	render(){
+		
 		return(
 			<div className="body">
 				    <section id="page-breadcrumb">
@@ -39,16 +41,27 @@ class About extends Component {
 			    </section>
 
 
-			    
+			    <section id="about">
+				<div className="navbar navbar-inverse" role="banner">
+				<div className="container">
+				<div className="collapse navbar-collapse">
+									<ul className="nav navbar-nav navbar-right" id="tabs">
+										<li ><a href="#" title="tab1">All</a></li>
+															
+										<li ><a href="#" title="tab2">WebDevelopment </a>
+											
+										</li>
+										<li ><a href="#" title="tab3">Marketing</a>
 
-    
-			    <section id="team-area">
-			        <div className="container">
-			            <div className="center fadeInDown">
-			                <h2>Our Team</h2>
-			                <p className="lead"></p>
-			            </div>
-			            <div className="row">
+										</li>                         
+
+										<li c><a href ="#" title="tab4">Anchoring</a></li>  
+										<li><a href="#" title="tab5">Content Creater</a></li>                  
+
+									</ul>
+									<div id="content">
+									<div id="tab1">
+									
 			                <Team
 			                	img="images/aboutus/Rajit.jpg"
 			                	name="Rajit Paul"
@@ -104,9 +117,59 @@ class About extends Component {
 			                	linkedin="https://www.linkedin.com/in/kristina-barooah-322916169"
 			                	instagram="https://www.instagram.com/kristinasarmabarooah/"
 			                />
-			            </div>
-			        </div>
-			    </section>
+			            
+									</div>
+									<div id="tab2">
+									<Team
+			                	img="images/aboutus/prateek.jpg"
+			                	name="Prateek Singh"
+			                	job="Core Technical Member"
+			                	facebook="https://m.facebook.com/profile.php?ref=bookmarks"
+			                	twitter="https://twitter.com/onebutnotalone"
+			                	linkedin="https://www.linkedin.com/in/prateek-singh-42356b12b"
+			                	instagram="https://www.instagram.com/_prateek_singh_/"
+			                />
+									</div>
+									<div id="tab3">
+									<Team
+			                	img="images/aboutus/Santosh.png"
+			                	name="Santosh"
+			                	job="Core Technical Member"
+			                	facebook="#"
+			                	twitter="https://twitter.com/skpottumuthu"
+			                	linkedin="https://www.linkedin.com/in/santosh-kumar-pottumuthu/"
+			                	instagram="https://www.instagram.com/santosh__pottumuthu"
+			                />
+									</div>
+									<div id="tab4">
+									<Team img="images/aboutus/Kristina.jpg"
+			                	name="Kristina "
+			                	job="Core Technical Member"
+			                	facebook="https://www.facebook.com/kristina.barooah"
+			                	twitter="https://twitter.com/KristinaBarooah"
+			                	linkedin="https://www.linkedin.com/in/kristina-barooah-322916169"
+			                	instagram="https://www.instagram.com/kristinasarmabarooah/"
+			                />
+									</div>
+									<div id="tab5">
+									<Team
+			                	img="images/aboutus/prateek.jpg"
+			                	name="Prateek Singh"
+			                	job="Core Technical Member"
+			                	facebook="https://m.facebook.com/profile.php?ref=bookmarks"
+			                	twitter="https://twitter.com/onebutnotalone"
+			                	linkedin="https://www.linkedin.com/in/prateek-singh-42356b12b"
+			                	instagram="https://www.instagram.com/_prateek_singh_/"
+			                />
+									</div>
+									</div>
+								</div>
+				</div>
+				</div>
+				</section>
+
+    
+			    
 			</div>
 		)
 	}

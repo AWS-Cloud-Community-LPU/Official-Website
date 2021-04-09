@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Features from '../../../component/Features/Features';
 import Clients from '../../../component/Clients/Clients';
-import Footer from '../../../component/Footer/Footer';
+
 import { Link } from 'react-router-dom';
 
 class Home extends Component {
@@ -71,8 +71,11 @@ AWS is a broadly adopted cloud platform that offers several on-demand operations
                                 <div className="row">
                                     <div className="action take-tour">
                                         <div className="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                                            <h1 className="title">Our Upcoming Event</h1>
-                                            <p>Induction Drive for.</p>
+                                            <h1 className="title">Our Upcoming Event:</h1>
+                                            <p>AWS Engage <br />
+We, at AWS Cloud Community LPU, believe that knowledge shared is knowledge earned.
+Accepting and giving is the way of living. It keeps you updated in today's dynamic industry
+and can make you tomorrow's leader.</p>
                                         </div>
                                         <div className="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                                             <div className="tour-button">

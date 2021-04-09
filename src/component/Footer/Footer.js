@@ -50,7 +50,7 @@ const Footer = (props) => {
                     <div className="contact-info bottom">
                         <h2>Contacts</h2>
                         <address>
-                        E-mail: <a href="mailto:awscloudcommunity@email.com">awscloudcommunity@gmail.com</a> <br /> 
+                        E-mail: <a href="mailto:awscloudcommunity@email.com">awscloudcommunity.lpu@gmail.com</a> <br /> 
                         Phone: 8017874250 <br /> 
                         
                         </address>

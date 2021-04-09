@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
-import Features from '../../../component/Features/Features';
-import Clients from '../../../component/Clients/Clients';
-import Footer from '../../../component/Footer/Footer';
-import { Link } from 'react-router-dom';
+
 
 class Recruitment extends Component {
 	render(){
@@ -10,10 +7,15 @@ class Recruitment extends Component {
             <section id="clients" className="responsive">
             <div className="container">
             <div className="row">
-                                
+            <div className="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                                            <div className="tour-button">
+                                                <h2>How to Join the Community</h2>
+                                                <p>Fill out the form given and we will contact you</p>
+                                            </div>
+                                        </div> 
 			<div className="col-sm-7 wow fadeInRight">
                     <div className="contact-form bottom">
-                        <h2>Send a message</h2>
+                        <h2>Recruitment Form</h2>
                         <form id="main-contact-form" name="contact" method="POST" data-netlify="true">
                             <div className="form-group">
                                 <input type="text" name="name" className="form-control" required="required" placeholder="Name" />
@@ -42,12 +44,7 @@ class Recruitment extends Component {
                         </form>
                     </div>
                 </div>
-                <div className="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                                            <div className="tour-button">
-                                                <h2>How to Join the Community</h2>
-                                                <p>Fill out the form given on the left and we will contact you</p>
-                                            </div>
-                                        </div>
+                
                 </div>
                 </div>
                 </section>
