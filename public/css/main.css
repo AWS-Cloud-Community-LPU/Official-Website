@@ -2772,4 +2772,21 @@ span.stButton_gradient,
   -webkit-box-shadow: 0 0 0 5px rgba(0,0,0,.1) inset;
   border-radius: 100%;
   margin: 10px 0;
+
+}
+#AboutUsFirstImg{
+  width:600px
+}
+@media only screen and (max-width:768px){
+  /*for mobiles*/
+  .video-container{
+    width:100%;
+  }
+  .tour-button{
+    background-position:bottom left ;
+  }
+  .col-sm-12{
+    margin-top:200px
+  }
+
 }
