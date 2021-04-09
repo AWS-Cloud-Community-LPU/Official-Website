@@ -32,6 +32,9 @@ class Index extends Component {
 	aboutClicked(){
 		this.setState({active:4,});
 	}
+	recruitmentClicked(){
+		this.setState({active:5,});
+	}
 
 	render(){
 		return(
@@ -82,7 +85,7 @@ class Index extends Component {
 										</li>                         
 
 										<li className={this.state.active==4 && "active"} onClick={() => {this.aboutClicked()}}><Link to ="/About">About Us</Link></li>  
-										<li className={this.state.active==5 && "active"} onClick={() => {this.aboutClicked()}}><Link to ="/Recruitment">Recruitment</Link></li>                  
+										<li className={this.state.active==5 && "active"} onClick={() => {this.recruitmentClicked()}}><Link to ="/Recruitment">Recruitment</Link></li>                  
 
 									</ul>
 								</div>
