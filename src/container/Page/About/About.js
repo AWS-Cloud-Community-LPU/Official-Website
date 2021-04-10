@@ -157,7 +157,7 @@ class About extends Component {
 								</div>
 							</div>
 							<div class="col-lg-3 user developer">
-							<div class="circle" style={{backgroundImage:'url("/images/aboutus/bhaskar.jfif")'}}></div>
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/bhaskar.jpg")'}}></div>
 							<p class="name">Bhaskar Jat</p>
 							<div className="team-social">
 								<a className="teamicon fa fa-facebook" href="https://www.facebook.com/bhaskar.jat.73"></a>
