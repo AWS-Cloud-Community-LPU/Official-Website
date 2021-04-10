@@ -2981,3 +2981,15 @@ body{
       padding-left: 10px;
       
     }
+@media only screen and (max-width:768px){
+  /*for mobiles*/
+  .video-container{
+    width:100%;
+  }
+  .tour-button{
+    background-position:bottom left ;
+  }
+  .col-sm-12{
+    margin-top:200px
+  }
+} 
