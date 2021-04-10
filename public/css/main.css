@@ -2899,13 +2899,13 @@ body{
       
     }
     
-    li.active:after {
+    .navbar-team li.active:after {
       
         opacity: 1;
       
     }
     
-    li:hover {
+    .navbar-team li:hover {
       cursor: pointer;
     }
       
@@ -2956,6 +2956,9 @@ body{
        
         background-color: gold;
       
+    }
+    .graphics .circle{
+      background-color: gold;
     }
     
     .management .circle{

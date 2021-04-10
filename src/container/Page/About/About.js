@@ -65,7 +65,7 @@ class About extends Component {
 			            <div className="row">
 			                <div className="col-md-7">
 			                    <div className="about-img">
-			                        <img src="images/aboutus/FirstOnejpg" alt=""/>
+			                        <img src="/images/aboutus/FirstOne.jpg" alt=""/>
 			                    </div>
 			                </div>
 			                <div className="col-md-5">
@@ -96,7 +96,7 @@ class About extends Component {
 						
 						<div class="col-12">
 						<div class="row user-wrapper">
-							<div class="col-lg-3 user ">
+							<div class="col-lg-3 user technical">
 							<div class="circle" style={{backgroundImage:'url("/images/aboutus/rajit.jpg")'}}></div>
 							<p class="name " >Rajit Paul</p>
 							<div className="team-social">
@@ -107,7 +107,7 @@ class About extends Component {
 								</div>
 							
 							</div>
-							<div class="col-lg-3 user developer">
+							<div class="col-lg-3 user developer anchoring">
 							<div class="circle" style={{backgroundImage:'url("/images/aboutus/prateek.jpg")'}}></div>
 							<p class="name prateek">Prateek Singh</p>
 							<div className="team-social">
@@ -122,7 +122,7 @@ class About extends Component {
 							<p class="name anjaliImage" id ="anjaliImage">Anjali Thakur</p>
 							<div className="team-social">
 								
-								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.xom/in/anjalithakur21/"></a>
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/anjalithakur21/"></a>
 								
 								</div>
 							</div>
@@ -186,7 +186,7 @@ class About extends Component {
 								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/immrwnnn_227/"></a>
 								</div>
 							</div>
-							<div class="col-lg-3 user content-developer">
+							<div class="col-lg-3 user content-developer anchoring">
 							<div class="circle" style={{backgroundImage:'url("/images/aboutus/ashutosh.jpg")'}}></div>
 							<p class="name prateek">Ashutosh Mohapatra</p>
 							<div className="team-social">
@@ -226,7 +226,7 @@ class About extends Component {
 								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/lakshay__banga"></a>
 								</div>
 							</div>
-							<div class="col-lg-3 user marketing">
+							<div class="col-lg-3 user content-developer">
 							<div class="circle" style={{backgroundImage:'url("/images/aboutus/gaurang.jfif")'}}></div>
 							<p class="name prateek">Gaurang Arora</p>
 								<div className="team-social">
@@ -246,7 +246,7 @@ class About extends Component {
 								</div>
 							</div>
 							<div class="col-lg-3 user graphics">
-							<div class="circle" style={{backgroundImage:'url("/images/aboutus/prateek.jpg")'}}></div>
+							<div class="circle" ></div>
 							<p class="name prateek">Puneet</p>
 							<div className="team-social">
 								<a className="teamicon fa fa-facebook" href="#"></a>
