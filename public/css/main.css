@@ -1,11 +1,4 @@
-/*
-  Theme Name: Triangle
-  Theme Uri: http://www.themeum.com
-  Author: Themeum
-  Author Uri: http://www.themeum.com
-  Description: Creative Site Template
-  Version: 1.1
-  */
+
 
   @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
   @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
@@ -822,6 +815,9 @@ ul.sub-menu {
   font-weight: 700;
   color: #333;
   margin-top: 0;
+}
+.team-social{
+  margin-bottom: 10px;
 }
 .single-team .team-social{
   margin-top: 15px;
@@ -2777,3 +2773,208 @@ span.stButton_gradient,
   width:600px
 }
 
+#tabs {
+  overflow: auto;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  }
+
+  #tabs li {
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+
+  #tabs a {
+    box-shadow: -4px 0 0 rgba(0, 0, 0, .2);
+    background: #ad1c1c;
+    background: linear-gradient(220deg, transparent 10px, #ad1c1c 10px);
+    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+    color: #fff;
+    float: left;
+    font: bold 12px/35px 'Lucida sans', Arial, Helvetica;
+    height: 35px;
+    padding: 0 30px;
+    text-decoration: none;
+
+  }
+
+  #tabs a:hover {
+    background: #c93434;
+    background: linear-gradient(220deg, transparent 10px, #c93434 10px);
+  }
+
+  #tabs a:focus {
+    outline: 0;
+  }
+
+  #tabs #current a {
+    background: #fff;
+    background: linear-gradient(220deg, transparent 10px, #fff 10px);
+    text-shadow: none;
+    color: #333;
+  }
+
+  #content {
+    /*background-color: #fff;
+    background-image: linear-gradient(top, #fff, #ddd);*/
+    border-radius: 0 2px 2px 2px;
+    box-shadow: 0 2px 2px #000, 0 -1px 0 #fff inset;
+    padding: 30px;
+  }
+  /*#content div {
+    height: 200px;
+  }*/
+
+
+body{
+	background-image:url(1.jpg);
+	/*background-color: 	#696969;*/
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,600,500,300,200,100,800);
+
+.team h2 {
+    color: #4C4C4C;
+    word-spacing: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ion-minus {
+    padding: 0px 10px;
+}
+
+.team {
+    font-family: 'Raleway', sans-serif;
+	background-color: #f6f6f6;
+	padding: 60px 0px;
+}
+
+.team h4 {
+    margin-top: 20px;
+    color: #5db4c0;
+}
+
+.team .fa {
+    color: #5db4c0;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* team*/
+.navbar-team {
+  list-style: none;
+  margin-top: 20px;
+}
+.navbar-team li{
+  display:inline-block;
+  margin-left: 70px;
+}
+  .filter-trigger {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 5px;
+    transition: all 0.5s;
+    position: relative;
+  }
+    
+    .navbar-team li:after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 3px;
+      background-color: purple;
+      opacity: 0;
+      transition: all 0.3s;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      
+    }
+    
+    li.active:after {
+      
+        opacity: 1;
+      
+    }
+    
+    li:hover {
+      cursor: pointer;
+    }
+      
+      
+  
+
+.user-wrapper {
+  margin-top: 50px;}
+  .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s;}
+    
+    .hide {
+      opacity: 0;
+      top: 0;
+      left: 0;
+      transform: scale(0);
+      position: absolute;
+    }
+    
+    .circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      transition: all 0.3s;
+    }
+    
+    .developer .circle {
+        background-color: cyan;
+      
+    }
+    .developer .circle .prateek{
+      background-color: cyan;
+      
+    
+  }
+    
+    .designer .circle{
+       
+        background-color: magenta;
+      
+    }
+    
+    .consultant .circle{
+       
+        background-color: gold;
+      
+    }
+    
+    .management .circle{
+       
+        background-color: black;
+      
+    }
+   .anjaliImage{
+      background-image: url("images/aboutus/prateek.jpg");
+    }
+    .retrictImage {
+      width: 250px;
+      border-radius: 50%;
+      transition: all 0.3s;
+      background-repeat: no-repeat;
+      margin:0 auto;
+      background-position: center;
+    }
+    .teamicon{
+      padding-left: 10px;
+      
+    }
