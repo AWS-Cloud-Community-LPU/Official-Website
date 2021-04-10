@@ -65,7 +65,7 @@ class About extends Component {
 			            <div className="row">
 			                <div className="col-md-7">
 			                    <div className="about-img">
-			                        <img id="AboutUsFirstImg" src="images/aboutus/FirstOne.jpg" alt=""/>
+			                        <img className="anjaliImage" alt=""/>
 			                    </div>
 			                </div>
 			                <div className="col-md-5">
@@ -272,6 +272,16 @@ class About extends Component {
 								
 								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/brahmajit-mohapatra-730743169"></a>
 								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/brahmajit.2k"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user anchoring">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/sami.jfif")'}}></div>
+							<p class="name prateek">Muhammad Sami Khanday</p>
+							<div className="team-social">
+							<a className="teamicon fa fa-facebook" href="https://www.facebook.com/iammsami"></a>
+							<a className="teamicon fa fa-twitter" href="https://twitter.com/msamikhanday"></a>
+								<a className="teamicon fa fa-linkedin" href="https://twitter.com/msamikhanday"></a>
+								<a className="teamicon fa fa-instagram" href="https://twitter.com/msamikhanday"></a>
 								</div>
 							</div>
 						</div>
