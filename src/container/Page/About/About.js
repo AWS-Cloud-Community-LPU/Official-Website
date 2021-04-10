@@ -1,8 +1,46 @@
 import React, {Component} from 'react';
+import { render } from "react-dom";
 import Team from '../../../component/Team/Team';
+import $ from "jquery";
 
 class About extends Component {
-	
+	componentDidMount(){
+		
+		const triggers = document.querySelectorAll('li.filter-trigger');
+		const users = document.querySelectorAll('.user');
+		var all = document.querySelector('.reset')
+		
+		function clearActive() {
+		  var activeLink = document.querySelector('.active');
+		  activeLink.classList.remove("active");
+		}
+		
+		triggers.forEach(element => {
+		  element.addEventListener('click', function() {
+			clearActive();
+			element.classList.add('active');
+			
+			let filter = element.dataset.filter;
+			console.log(filter);
+			
+			users.forEach(users => {
+			  if(!users.classList.contains(filter)) {
+				users.classList.add('hide');
+			  } else {
+				users.classList.remove('hide');
+			  }
+			});
+			
+			if(filter === 'all') {
+			  users.forEach(users => {
+				users.classList.remove('hide');
+			  })
+			}
+		  })
+		});
+		
+		  
+	}
 	render(){
 		
 		return(
@@ -22,7 +60,7 @@ class About extends Component {
         </div>
    </section>
 
-			    <section id="about-us">
+   <section id="about-us">
 			        <div className="container">
 			            <div className="row">
 			                <div className="col-md-7">
@@ -41,132 +79,206 @@ class About extends Component {
 			    </section>
 
 
-			    <section id="about">
-				<div className="navbar navbar-inverse" role="banner">
-				<div className="container">
-				<div className="collapse navbar-collapse">
-									<ul className="nav navbar-nav navbar-right" id="tabs">
-										<li ><a href="#" title="tab1">All</a></li>
-															
-										<li ><a href="#" title="tab2">WebDevelopment </a>
-											
-										</li>
-										<li ><a href="#" title="tab3">Marketing</a>
-
-										</li>                         
-
-										<li c><a href ="#" title="tab4">Anchoring</a></li>  
-										<li><a href="#" title="tab5">Content Creater</a></li>                  
-
-									</ul>
-									<div id="content">
-									<div id="tab1">
-									
-			                <Team
-			                	img="images/aboutus/Rajit.jpg"
-			                	name="Rajit Paul"
-			                	job="Core Technical Member"
-			                	facebook="https://www.facebook.com/rajit.paul/"
-			                	twitter="https://twitter.com/RajitPaul"
-			                	linkedin="https://www.linkedin.com/in/rajitpaul/"
-			                	instagram="#"
-			                />
-			                <Team
-			                	img="images/aboutus/Anjali.jpeg"
-			                	name="Anjali Thakur"
-			                	job="Core Technical Member"
-			                	facebook="#"
-			                	twitter="#"
-			                	linkedin="https://www.linkedin.com/in/anjalithakur21/"
-			                	instagram="#"
-			                />
-							<Team
-			                	img="images/aboutus/Garvit.jpg"
-			                	name="Garvit"
-			                	job="Core Technical Member"
-			                	facebook="https://www.facebook.com/garvit9j"
-			                	twitter="https://twitter.com/garvit__joshi"
-			                	linkedin="https://www.linkedin.com/in/garvit--joshi/"
-			                	instagram="https://www.instagram.com/garvit_._/"
-			                />
-			                
-                            <Team
-			                	img="images/aboutus/prateek.jpg"
-			                	name="Prateek Singh"
-			                	job="Core Technical Member"
-			                	facebook="https://m.facebook.com/profile.php?ref=bookmarks"
-			                	twitter="https://twitter.com/onebutnotalone"
-			                	linkedin="https://www.linkedin.com/in/prateek-singh-42356b12b"
-			                	instagram="https://www.instagram.com/_prateek_singh_/"
-			                />
-                            <Team
-			                	img="images/aboutus/Santosh.png"
-			                	name="Santosh"
-			                	job="Core Technical Member"
-			                	facebook="#"
-			                	twitter="https://twitter.com/skpottumuthu"
-			                	linkedin="https://www.linkedin.com/in/santosh-kumar-pottumuthu/"
-			                	instagram="https://www.instagram.com/santosh__pottumuthu"
-			                />
-                            
-			                <Team img="images/aboutus/Kristina.jpg"
-			                	name="Kristina "
-			                	job="Core Technical Member"
-			                	facebook="https://www.facebook.com/kristina.barooah"
-			                	twitter="https://twitter.com/KristinaBarooah"
-			                	linkedin="https://www.linkedin.com/in/kristina-barooah-322916169"
-			                	instagram="https://www.instagram.com/kristinasarmabarooah/"
-			                />
-			            
-									</div>
-									<div id="tab2">
-									<Team
-			                	img="images/aboutus/prateek.jpg"
-			                	name="Prateek Singh"
-			                	job="Core Technical Member"
-			                	facebook="https://m.facebook.com/profile.php?ref=bookmarks"
-			                	twitter="https://twitter.com/onebutnotalone"
-			                	linkedin="https://www.linkedin.com/in/prateek-singh-42356b12b"
-			                	instagram="https://www.instagram.com/_prateek_singh_/"
-			                />
-									</div>
-									<div id="tab3">
-									<Team
-			                	img="images/aboutus/Santosh.png"
-			                	name="Santosh"
-			                	job="Core Technical Member"
-			                	facebook="#"
-			                	twitter="https://twitter.com/skpottumuthu"
-			                	linkedin="https://www.linkedin.com/in/santosh-kumar-pottumuthu/"
-			                	instagram="https://www.instagram.com/santosh__pottumuthu"
-			                />
-									</div>
-									<div id="tab4">
-									<Team img="images/aboutus/Kristina.jpg"
-			                	name="Kristina "
-			                	job="Core Technical Member"
-			                	facebook="https://www.facebook.com/kristina.barooah"
-			                	twitter="https://twitter.com/KristinaBarooah"
-			                	linkedin="https://www.linkedin.com/in/kristina-barooah-322916169"
-			                	instagram="https://www.instagram.com/kristinasarmabarooah/"
-			                />
-									</div>
-									<div id="tab5">
-									<Team
-			                	img="images/aboutus/prateek.jpg"
-			                	name="Prateek Singh"
-			                	job="Core Technical Member"
-			                	facebook="https://m.facebook.com/profile.php?ref=bookmarks"
-			                	twitter="https://twitter.com/onebutnotalone"
-			                	linkedin="https://www.linkedin.com/in/prateek-singh-42356b12b"
-			                	instagram="https://www.instagram.com/_prateek_singh_/"
-			                />
-									</div>
-									</div>
+			    <section id="blah">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+						<ul class="navbar-team">
+							<li class="active reset filter-trigger" data-filter="all">All</li>
+							<li class="filter-trigger" data-filter="anchoring">Anchoring</li>
+							<li class="filter-trigger" data-filter="developer">Web Developer</li>
+							<li class="filter-trigger" data-filter="content-developer">Content Developer</li>
+							<li class="filter-trigger" data-filter="graphics">Graphics</li>
+							<li class="filter-trigger" data-filter="technical">Technical</li>
+							<li class="filter-trigger" data-filter="marketing">Marketing</li>
+						</ul>
+						</div>
+						
+						<div class="col-12">
+						<div class="row user-wrapper">
+							<div class="col-lg-3 user ">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/rajit.jpg")'}}></div>
+							<p class="name " >Rajit Paul</p>
+							<div className="team-social">
+								<a className=" teamicon fa fa-facebook" href="https://www.facebook.com/rajit.paul/"></a>
+								<a className="teamicon fa fa-twitter" href="https://twitter.com/RajitPaul"></a>
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/rajitpaul/"></a>
+								
 								</div>
-				</div>
-				</div>
-				</section>
+							
+							</div>
+							<div class="col-lg-3 user developer">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/prateek.jpg")'}}></div>
+							<p class="name prateek">Prateek Singh</p>
+							<div className="team-social">
+								<a className="teamicon fa fa-facebook" href="https://www.facebook.com/profile.php?id=100003020273118"></a>
+								<a className="teamicon fa fa-twitter" href="https://twitter.com/onebutnotalone"></a>
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/prateek-singh-42356b12b"></a>
+								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/_prateek_singh_/"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user anchoring">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/anjali.jpeg")'}}></div>
+							<p class="name anjaliImage" id ="anjaliImage">Anjali Thakur</p>
+							<div className="team-social">
+								
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.xom/in/anjalithakur21/"></a>
+								
+								</div>
+							</div>
+							<div class="col-lg-3 user technical">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/garvit.jpg")'}}></div>
+							<p class="name">Garvit Joshi</p>
+							<div className="team-social">
+								<a className="teamicon fa fa-facebook" href="https://www.facebook.com/garvit9j"></a>
+								<a className="teamicon fa fa-twitter" href="https://twitter.com/garvit__joshi"></a>
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/garvit--joshi/"></a>
+								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/garvit_._/"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user marketing">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/kristina.jpg")'}}></div>
+							<p class="name">Kristina</p>
+							<div className="team-social">
+								<a className="teamicon fa fa-facebook" href="https://www.facebook.com/kristina.barooah"></a>
+								<a className="teamicon fa fa-twitter" href="https://twitter.com/KristinaBarooah"></a>
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/kristina-barooah-322916169"></a>
+								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/kristinasarmabarooah/"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user technical">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/santosh.png")'}}></div>
+							<p class="name">Santosh</p>
+							<div className="team-social">
+								<a className="teamicon fa fa-facebook" href="https://twitter.com/skpottumuthu"></a>
+								
+								<a className="teamicon fa fa-linkedin" href="https://www.instagram.com/santosh__pottumuthu"></a>
+								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/santosh__pottumuthu"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user developer">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/bhaskar.jfif")'}}></div>
+							<p class="name">Bhaskar Jat</p>
+							<div className="team-social">
+								<a className="teamicon fa fa-facebook" href="https://www.facebook.com/bhaskar.jat.73"></a>
+								<a className="teamicon fa fa-twitter" href="https://twitter.com/Bhaskar79011405"></a>
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/bhaskar-jat/"></a>
+								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/bhaskar_jat_/"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user technical">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/shivam.jpg")'}}></div>
+							<p class="name">Shivam Mishra</p>
+							<div className="team-social">
+								<a className="teamicon fa fa-facebook" href="https://www.facebook.com/mshivam019"></a>
+								<a className="teamicon fa fa-twitter" href="https://twitter.com/MShivam190"></a>
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/shivam-mishra-019/"></a>
+								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/mshivam019/"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user technical">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/imran.jpeg")'}}></div>
+							<p class="name prateek">Imran Khan</p>
+							<div className="team-social">
+								<a className="teamicon fa fa-facebook" href="https://www.facebook.com/profile.php?id=100005905788799"></a>
+								<a className="teamicon fa fa-twitter" href="https://twitter.com/imran_khan227"></a>
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/imran-khan-991324188/"></a>
+								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/immrwnnn_227/"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user content-developer">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/ashutosh.jpg")'}}></div>
+							<p class="name prateek">Ashutosh Mohapatra</p>
+							<div className="team-social">
+								<a className="teamicon fa fa-facebook" href="https://www.facebook.com/mohapatrashutosh/"></a>
+								<a className="teamicon fa fa-twitter" href="https://twitter.com/imashumohapatra"></a>
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/iamashutosh/"></a>
+								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/ashutosh__mohapatra/"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user technical">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/harneet.jfif")'}}></div>
+							<p class="name prateek">Harneet Kaur</p>
+							<div className="team-social">
+								<a className="teamicon fa fa-facebook" href="https://www.facebook.com/harneetk.21"></a>
+								<a className="teamicon fa fa-twitter" href="https://twitter.com/harneetk21"></a>
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/harneetkaur1991/"></a>
+								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/harneet_k_engineer/"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user technical">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/dushyant.jfif")'}}></div>
+							<p class="name prateek">Dushyanth Desu</p>
+							<div className="team-social">
+								<a className="teamicon fa fa-facebook" href="https://www.facebook.com/dushyanthdesu/"></a>
+								<a className="teamicon fa fa-twitter" href="https://twitter.com/DesuDushyanth"></a>
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/dushyanthdesu/"></a>
+								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/prinz_charmant/"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user marketing">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/lakshey.jfif")'}}></div>
+							<p class="name prateek">Lakshey banga</p>
+							<div className="team-social">
+								<a className="teamicon fa fa-facebook" href="http://facebook.com/lakshay.banga.5"></a>
+								
+								<a className="teamicon fa fa-linkedin" href="http://www.linkedin.com/in/lakshey-banga"></a>
+								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/lakshay__banga"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user marketing">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/gaurang.jfif")'}}></div>
+							<p class="name prateek">Gaurang Arora</p>
+								<div className="team-social">
+								
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/gaurangarora/"></a>
+								
+								</div>
+							</div>
+							<div class="col-lg-3 user developer">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/arush.jpg")'}}></div>
+							<p class="name prateek">Arush Nigam</p>
+							<div className="team-social">
+								<a className="teamicon fa fa-facebook" href="https://touch.facebook.com/arush.nigam.75"></a>
+								<a className="teamicon fa fa-twitter" href="https://twitter.com/arush_nigam"></a>
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/arush-nigam/"></a>
+								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/aru5602/"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user graphics">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/prateek.jpg")'}}></div>
+							<p class="name prateek">Puneet</p>
+							<div className="team-social">
+								<a className="teamicon fa fa-facebook" href="#"></a>
+								<a className="teamicon fa fa-twitter" href="#"></a>
+								<a className="teamicon fa fa-linkedin" href="#"></a>
+								<a className="teamicon fa fa-instagram" href="#"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user graphics">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/ankit.jfif")'}}></div>
+							<p class="name prateek">Ankit Ojha</p>
+							<div className="team-social">
+								
+								<a className="teamicon fa fa-twitter" href="https://twitter.com/ankit_ojha07"></a>
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/ankitojha07/"></a>
+								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/codeforcoffee.in/"></a>
+								</div>
+							</div>
+							<div class="col-lg-3 user anchoring">
+							<div class="circle" style={{backgroundImage:'url("/images/aboutus/brahma.jfif")'}}></div>
+							<p class="name prateek">Brahmjit</p>
+							<div className="team-social">
+								
+								<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/brahmajit-mohapatra-730743169"></a>
+								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/brahmajit.2k"></a>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+					</div>
+			    </section>
 
     
 			    
