@@ -274,7 +274,7 @@ class About extends Component {
 								<a className="teamicon fa fa-instagram" href="https://www.instagram.com/brahmajit.2k"></a>
 								</div>
 							</div>
-							<div class="col-lg-3 user anchoring">
+							<div class="col-lg-3 user technical">
 							<div class="circle" style={{backgroundImage:'url("/images/aboutus/sami.jfif")'}}></div>
 							<p class="name prateek">Muhammad Sami Khanday</p>
 							<div className="team-social">

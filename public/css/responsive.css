@@ -158,9 +158,6 @@
     .parrent .media-list {
         margin-left: 40px;
     }
-    .single-blog.two-column .post-overlay {
-/*        margin-top: 0;*/
-    }
 }
 
 
@@ -257,11 +254,9 @@
     }
     #home-slider .slider-hill {
         right: 50%;
-        margin-right: -200px;
     }
     #home-slider .slider-house {
         right: 50%;
-        margin-right: -125px;
     }
     #home-slider .slider-sun {
         right: 50%;
@@ -270,12 +265,14 @@
     #home-slider .slider-birds1 {
         width: 70px;
         right: 50%;
-        margin-right: 120px;
     }
     #home-slider .slider-birds2 {
         width: 70px;
         right: 50%;
-        margin-right: -200px;
+    }
+    #home-slider img{
+        margin-bottom: -99px;
+        margin-right:90px;
     }
     /*Pricing Table*/
     .single-price,
