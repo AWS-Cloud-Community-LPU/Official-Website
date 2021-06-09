@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-
 import Features from '../../../component/Features/Features';
 import Clients from '../../../component/Clients/Clients';
 
@@ -27,7 +26,6 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
-                        
                         <div className="preloader"><i className="fa fa-sun-o fa-spin"></i></div>
                     </section>
 
