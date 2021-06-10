@@ -8,7 +8,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.1.9",
     "css-loader": "^5.2.6",
-    "emailjs-com": "^2.6.4",
+    "emailjs-com": "^3.0.2",
     "jquery": "^3.6.0",
     "mdbreact": "^5.0.2",
     "react": "^17.0.1",
