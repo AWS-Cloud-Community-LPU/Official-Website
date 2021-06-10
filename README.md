@@ -26,6 +26,6 @@ npm start
 ```bash
 npm run build
 ```
-
+**Now you can upload this build folder to any hosting service and your website will be published**
 ## :page_facing_up: License
 [MIT](./LICENSE) © AWS Cloud Community LPU
