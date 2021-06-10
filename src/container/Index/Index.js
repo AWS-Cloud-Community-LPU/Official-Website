@@ -14,36 +14,47 @@ import Events from '../Page/Events/Events';
 
 class Index extends Component {
 
+
 	constructor(props) {
 		super(props);
+		var a = window.location.href.match(/\w+$/)
+		window.history.pushState({}, '', '/')
+		if (a) {
+			a = a.toString().toLowerCase();
+
+		}
+		else {
+			a = ''
+		}
 		this.state = {
-			active: 1,
+			active: a,
 		}
 	}
 
 	homeClicked() {
-		this.setState({ active: 1, });
+		this.setState({ active: '', });
 	}
 	blogClicked() {
-		this.setState({ active: 2, });
+		this.setState({ active: 'blog', });
 	}
 	contClicked() {
-		this.setState({ active: 3, });
+		this.setState({ active: 'contact', });
 	}
 	aboutClicked() {
-		this.setState({ active: 4, });
+		this.setState({ active: 'about', });
 	}
 	recruitmentClicked() {
-		this.setState({ active: 5, });
+		this.setState({ active: 'recruitment', });
 	}
 	eventsClicked() {
-		this.setState({ active: 6, });
+		this.setState({ active: 'events', });
 	}
 
 	render() {
 		return (
-			<Router>
+			< Router >
 				<div>
+					<h1>{ }</h1>
 					<header id="header">
 						<div className="container">
 							<div className="row">
@@ -70,7 +81,7 @@ class Index extends Component {
 									</button>
 
 
-									<Link to="/index.html " className="navbar-brand">
+									<Link to="/" className="navbar-brand">
 										<h1><img src="images/logo.png" alt="logo" /></h1>
 									</Link>
 
@@ -79,18 +90,12 @@ class Index extends Component {
 								</div>
 								<div className="collapse navbar-collapse">
 									<ul className="nav navbar-nav navbar-right">
-										<li className={this.state.active == 1 && "active"} onClick={() => { this.homeClicked() }}><Link to="/">Home</Link></li>
-
-										<li className={this.state.active == 2 && "active"} onClick={() => { this.blogClicked() }}><Link to="/Blog">Blog </Link>
-
-										</li>
-										<li className={this.state.active == 3 && "active"} onClick={() => { this.contClicked() }}><Link to="/Contact">Contact Us</Link>
-
-										</li>
-
-										<li className={this.state.active == 4 && "active"} onClick={() => { this.aboutClicked() }}><Link to="/About">About Us</Link></li>
-										<li className={this.state.active == 5 && "active"} onClick={() => { this.recruitmentClicked() }}><Link to="/Recruitment">Recruitment</Link></li>
-										<li className={this.state.active == 6 && "active"} onClick={() => { this.eventsClicked() }}><Link to="/Events">Events</Link></li>
+										<li className={this.state.active == '' && "active"} onClick={() => { this.homeClicked(); window.location.reload() }}><Link to="/">Home</Link></li>
+										<li className={this.state.active == 'blog' && "active"} onClick={() => { this.blogClicked() }}><Link to="/Blog">Blog </Link></li>
+										<li className={this.state.active == 'contact' && "active"} onClick={() => { this.contClicked() }}><Link to="/Contact">Contact Us</Link></li>
+										<li className={this.state.active == 'about' && "active"} onClick={() => { this.aboutClicked() }}><Link to="/About">About Us</Link></li>
+										<li className={this.state.active == 'recruitment' && "active"} onClick={() => { this.recruitmentClicked() }}><Link to="/Recruitment">Recruitment</Link></li>
+										<li className={this.state.active == 'events' && "active"} onClick={() => { this.eventsClicked() }}><Link to="/Events">Events</Link></li>
 
 									</ul>
 								</div>
@@ -109,7 +114,7 @@ class Index extends Component {
 
 					<Footer />
 				</div>
-			</Router>
+			</Router >
 		)
 	}
 }

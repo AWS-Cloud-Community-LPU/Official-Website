@@ -3,6 +3,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import YoutubeEmbed from '../../../component/Events/Events'
 class Events extends Component {
+    componentDidMount() {
+
+        window.history.pushState({}, '', '/')
+    }
     render() {
         return (
             <div className="body">

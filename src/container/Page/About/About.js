@@ -6,6 +6,8 @@ import $ from "jquery";
 class About extends Component {
 	componentDidMount() {
 
+		window.history.pushState({}, '', '/')
+
 		const triggers = document.querySelectorAll('li.filter-trigger');
 		const users = document.querySelectorAll('.user');
 		var all = document.querySelector('.reset')
