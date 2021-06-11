@@ -100,15 +100,8 @@ and can make you tomorrow's leader.</p>
 
 
 
+            <Footer_Home/>
 
-
-<<<<<<< Updated upstream
-
-=======
-			    
-                    <Footer_Home/>
-			    
->>>>>>> Stashed changes
 
 
             </div>
