@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Features from '../../../component/Features/Features';
 import Clients from '../../../component/Clients/Clients';
+import Footer_Home from "../../../component/Footer/Footer_Home";
 
 import { Link } from 'react-router-dom';
 
@@ -101,7 +102,13 @@ and can make you tomorrow's leader.</p>
 
 
 
+<<<<<<< Updated upstream
 
+=======
+			    
+                    <Footer_Home/>
+			    
+>>>>>>> Stashed changes
 
 
             </div>

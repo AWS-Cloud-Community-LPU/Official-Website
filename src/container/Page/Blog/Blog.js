@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 import React, { Component } from 'react';
+=======
+import React, {Component} from 'react';
+import Footer_Blog from "../../../component/Footer/Footer_Blog";
+>>>>>>> Stashed changes
 
 
 class Blog extends Component {
@@ -125,9 +130,20 @@ class Blog extends Component {
                 </section>
 
             </div>
+<<<<<<< Updated upstream
 
         )
     }
+=======
+        </section>
+            
+            <Footer_Blog/>
+
+        </div>
+            
+		)
+	}
+>>>>>>> Stashed changes
 }
 
 export default Blog;
