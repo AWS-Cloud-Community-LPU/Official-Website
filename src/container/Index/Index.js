@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import Footer from '../../component/Footer/Footer';
+//import Footer from '../../component/Footer/Footer';
 import Home from '../Page/Home/Home';
 import Contact from '../Page/Contact/Contact';
 import About from '../Page/About/About';
@@ -112,7 +112,7 @@ class Index extends Component {
 					<Route path="/recruitment/" component={Recruitment} />
 					<Route path="/events/" component={Events} />
 
-					<Footer />
+					{/* <Footer /> */}
 				</div>
 			</Router >
 		)
