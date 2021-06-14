@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Footer_Events from "../../../component/Footer/Footer_Events";
 
 import { Link } from 'react-router-dom';
 import YoutubeEmbed from '../../../component/Events/Events'
@@ -82,8 +81,6 @@ class Events extends Component {
                         {/**---------------------------------------------------------------------------------------------- */}
                     </div>
                 </section>
-
-                <Footer_Events/>
 
             </div>
         )
