@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+import Footer_Recruitment from "../../../component/Footer/Footer_Recruitment";
 
 
 class Recruitment extends Component {
@@ -52,6 +53,7 @@ class Recruitment extends Component {
 
                     </div>
                 </div>
+                <Footer_Recruitment/>
             </section>
 
         )
