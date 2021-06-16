@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer_Contact from "../../../component/Footer/Footer_Contact";
 
 
 class Contact extends Component {
@@ -96,6 +97,7 @@ class Contact extends Component {
 
 					</div>
 				</section>
+				<Footer_Contact/>
 			</div>
 		)
 	}
