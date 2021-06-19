@@ -29,8 +29,8 @@ const Footer = (props) => {
                                 <a href="#"><img src="images/home/profile1.jpg"  alt="" /></a>
                             </div>
                             <div className="media-body">
-                                <blockquote>If you do build a great experience, customers tell each other about that. Word of mouth is very powerful.</blockquote>
-                                <h3><a href="#">- Jeff Bezos</a></h3>
+                                <blockquote>{props.para1}</blockquote>
+                                <h3><a href="#">- {props.name1}</a></h3>
                             </div>
                          </div>
                         <div className="media">
@@ -38,8 +38,8 @@ const Footer = (props) => {
                                 <a href="#"><img src="images/home/profile2.jpg" alt="" /></a>
                             </div>
                             <div className="media-body">
-                                <blockquote>Relentless Innovation</blockquote>
-                                <h3><a href="">- Andy Jassy</a></h3>
+                                <blockquote>{props.para2}</blockquote>
+                                <h3><a href="">- {props.name2}</a></h3>
                             </div>
                         </div>   
                     </div> 

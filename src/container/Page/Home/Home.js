@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Features from '../../../component/Features/Features';
 import Clients from '../../../component/Clients/Clients';
-
+import Footer from '../../../component/Footer/Footer';
 import { Link } from 'react-router-dom';
 
 class Home extends Component {
@@ -96,7 +96,11 @@ and can make you tomorrow's leader.</p>
                     <Clients />
                 </section>
 
-
+                <Footer
+				para1="One of the only ways to get out of a tight box is to invent your way out."
+				name1="Jeff Bezos"
+				para2="If you double the number of expirements you do per year you're going to double your inventiveness."
+				name2="Andy Jassy" />
 
 
 

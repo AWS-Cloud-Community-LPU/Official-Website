@@ -112,7 +112,7 @@ class Index extends Component {
 					<Route path="/recruitment/" component={Recruitment} />
 					<Route path="/events/" component={Events} />
 
-					<Footer />
+					
 				</div>
 			</Router >
 		)

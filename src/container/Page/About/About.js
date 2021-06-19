@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from "react-dom";
 import Team from '../../../component/Team/Team';
+import Footer from '../../../component/Footer/Footer';
 import $ from "jquery";
 
 class About extends Component {
@@ -228,15 +229,7 @@ class About extends Component {
 											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/lakshay__banga"></a>
 										</div>
 									</div>
-									<div class="col-lg-3 user content-developer">
-										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/gaurang.jfif")' }}></div>
-										<p class="name prateek">Gaurang Arora</p>
-										<div className="team-social">
-
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/gaurangarora/"></a>
-
-										</div>
-									</div>
+									
 									<div class="col-lg-3 user developer">
 										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/arush.jpg")' }}></div>
 										<p class="name prateek">Arush Nigam</p>
@@ -247,16 +240,7 @@ class About extends Component {
 											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/aru5602/"></a>
 										</div>
 									</div>
-									<div class="col-lg-3 user graphics">
-										<div class="circle" ></div>
-										<p class="name prateek">Puneet</p>
-										<div className="team-social">
-											<a className="teamicon fa fa-facebook" href="#"></a>
-											<a className="teamicon fa fa-twitter" href="#"></a>
-											<a className="teamicon fa fa-linkedin" href="#"></a>
-											<a className="teamicon fa fa-instagram" href="#"></a>
-										</div>
-									</div>
+									
 									<div class="col-lg-3 user graphics">
 										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/ankit.jfif")' }}></div>
 										<p class="name prateek">Ankit Ojha</p>
@@ -291,7 +275,11 @@ class About extends Component {
 						</div>
 					</div>
 				</section>
-
+				<Footer
+				para1="If you do build a great experience, customers tell each other about that. Word of mouth is very powerful."
+				name1="Jeff Bezos"
+				para2="Relentless Innovation"
+				name2="Andy Jassy" />
 
 
 			</div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Footer from '../../../component/Footer/Footer';
 
 class Blog extends Component {
     componentDidMount() {
@@ -123,7 +123,11 @@ class Blog extends Component {
                         </div>
                     </div>
                 </section>
-
+                <Footer
+				para1="We expect all our businesses to have a positive impact on our top and bottom lines. Profitability is very important to us or we wouldn't be in this business."
+				name1="Jeff Bezos"
+				para2="There is so much opportunity for all of us if we can make sure that we get deep in the cloud and in the services, that we give the right advice to customers, we make sure that we focus on what matters most to customers"
+				name2="Andy Jassy" />
             </div>
 
         )

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Footer from '../../../component/Footer/Footer';
 import { Link } from 'react-router-dom';
 import YoutubeEmbed from '../../../component/Events/Events'
 class Events extends Component {
@@ -81,7 +81,11 @@ class Events extends Component {
                         {/**---------------------------------------------------------------------------------------------- */}
                     </div>
                 </section>
-
+                <Footer
+				para1="A brand for a company is like a reputation for a person. You earn reputation by trying to do hard things well."
+				name1="Jeff Bezos"
+				para2="There is no compression algorithm for experience."
+				name2="Andy Jassy" />
             </div>
         )
     }

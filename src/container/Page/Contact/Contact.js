@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Footer from '../../../component/Footer/Footer';
 
 class Contact extends Component {
 	componentDidMount() {
@@ -96,6 +96,11 @@ class Contact extends Component {
 
 					</div>
 				</section>
+				<Footer
+				para1="There are two kinds of companies, those that work to try to charge more and those that work to charge less. We will be the second."
+				name1="Jeff Bezos"
+				para2="We're still at what I think of is the early stages of the meat of enterprise and public sector adoption in the U.S."
+				name2="Andy Jassy" />
 			</div>
 		)
 	}

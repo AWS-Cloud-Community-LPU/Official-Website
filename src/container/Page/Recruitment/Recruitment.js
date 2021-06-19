@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Footer from '../../../component/Footer/Footer';
 
 class Recruitment extends Component {
     componentDidMount() {
@@ -8,17 +8,34 @@ class Recruitment extends Component {
     }
     render() {
         return (
+            <div>
+            <section id="page-breadcrumb">
+                    <div class="vertical-center sun">
+                        <div class="container">
+                            <div class="row">
+                                <div class="action">
+                                    <div class="col-sm-12">
+                                        <h1 class="title">How to Join the Community?</h1>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
             <section id="clients" className="responsive">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                             <div className="tour-button">
-                                <h2>How to Join the Community</h2>
-                                <p>Fill out the form given and we will contact you</p>
+                                
+                                
                             </div>
                         </div>
                         <div className="col-sm-7 wow fadeInRight">
                             <div className="contact-form bottom">
+                            <h2>Fill out the form given and we will contact you</h2>
                                 <h2>Recruitment Form</h2>
                                 <form id="main-contact-form" name="contact-form" method="POST" data-netlify="true">
                                     <input type="hidden" name="form-name" value="contact-form" />
@@ -52,8 +69,14 @@ class Recruitment extends Component {
 
                     </div>
                 </div>
+                
             </section>
-
+            <Footer
+				para1="Our core values and approach remain unchanged. We continue to aspire to be Earth’s most customer-centric company."
+				name1="Jeff Bezos"
+				para2="There's this new generation of systems integrators that's really picked up steam, and that's carrying a lot of the new market segment share in companies moving to cloud."
+				name2="Andy Jassy" />
+            </div>
         )
     }
 }
