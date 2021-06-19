@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Footer_Recruitment from "../../../component/Footer/Footer_Recruitment";
+
 
 class Recruitment extends Component {
     componentDidMount() {
@@ -8,7 +8,7 @@ class Recruitment extends Component {
     }
     render() {
         return (
-            <div id="clients" className="responsive">
+            <section id="clients" className="responsive">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
@@ -52,8 +52,7 @@ class Recruitment extends Component {
 
                     </div>
                 </div>
-                <Footer_Recruitment/>
-            </div>
+            </section>
 
         )
     }

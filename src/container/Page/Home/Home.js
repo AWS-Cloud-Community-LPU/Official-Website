@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Features from '../../../component/Features/Features';
 import Clients from '../../../component/Clients/Clients';
-import Footer_Home from "../../../component/Footer/Footer_Home";
 
 import { Link } from 'react-router-dom';
 
@@ -97,7 +96,13 @@ and can make you tomorrow's leader.</p>
                     <Clients />
                 </section>
 
-                <Footer_Home/>
+
+
+
+
+
+
+
 
             </div>
         )

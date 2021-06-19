@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { render } from "react-dom";
 import Team from '../../../component/Team/Team';
 import $ from "jquery";
-import Footer_About from "../../../component/Footer/Footer_About";
 
 class About extends Component {
 	componentDidMount() {
@@ -294,7 +293,7 @@ class About extends Component {
 				</section>
 
 
-			<Footer_About/>
+
 			</div>
 		)
 	}

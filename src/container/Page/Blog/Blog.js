@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Footer_Blog from "../../../component/Footer/Footer_Blog";
 
 
 class Blog extends Component {
@@ -125,7 +124,6 @@ class Blog extends Component {
                     </div>
                 </section>
 
-            <Footer_Blog/>
             </div>
 
         )
