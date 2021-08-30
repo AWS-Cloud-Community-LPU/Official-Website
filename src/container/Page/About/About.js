@@ -3,6 +3,7 @@ import { render } from "react-dom";
 import Team from '../../../component/Team/Team';
 import Footer from '../../../component/Footer/Footer';
 import $ from "jquery";
+import "./About.css";
 
 class About extends Component {
 	componentDidMount() {
@@ -84,8 +85,10 @@ class About extends Component {
 
 				<section id="blah">
 					<div class="container">
+
 						<div class="row">
-							<div class="col-12">
+
+						    <div class="col-12">
 								<ul class="navbar-team">
 									<li class="AbtUsactive reset filter-trigger" data-filter="all">All</li>
 									<li class="filter-trigger" data-filter="anchoring">Anchoring</li>

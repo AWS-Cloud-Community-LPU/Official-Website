@@ -1,0 +1,14 @@
+.about-img img {
+  max-width: 125%;
+}
+.navbar-team {
+  margin-left: -4rem;
+}
+.navbar-team li {
+  margin-top: 1rem;
+}
+@media only screen and (max-width: 768px) {
+  .navbar-team li {
+    margin-left: 2rem;
+  }
+}
