@@ -102,7 +102,7 @@ AWS is a broadly adopted cloud platform that offers several on-demand operations
                                         </center>
                                     </div>
                                     <div className="col-sm-3">
-                                            <img className="event-img" src={ Image } alt="" className="mt-3"/>
+                                            <img className="event-img" src={ Image } alt=""/>
                                     </div>
                                 </div>
 
