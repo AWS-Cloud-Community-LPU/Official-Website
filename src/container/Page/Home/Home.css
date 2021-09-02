@@ -1,0 +1,20 @@
+#home-slider {
+  margin-bottom: 5rem;
+}
+
+.btn-common {
+  margin-top: 5rem;
+}
+#action {
+  margin-bottom: 6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #home-slider {
+    padding-bottom: 6rem;
+    margin-bottom: 5rem;
+  }
+  .btn-common {
+    margin-top: 2rem;
+  }
+}
