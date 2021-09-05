@@ -3,6 +3,8 @@ import Features from '../../../component/Features/Features';
 import Clients from '../../../component/Clients/Clients';
 import Footer from '../../../component/Footer/Footer';
 import { Link } from 'react-router-dom';
+import "./Home.css";
+import Image from "../../../images/home/tour-icon2.png"
 
 class Home extends Component {
     componentDidMount() {
@@ -49,7 +51,18 @@ class Home extends Component {
                         </div>
                         <div className="" data-wow-duration="500ms" data-wow-delay="300ms">
                             <h2>AWS re:Invent 2020 - Keynote with Andy Jassy</h2>
-                            <p>Andy Jassy, CEO of Amazon Web Services, delivers his AWS re:Invent 2020 keynote, featuring the latest news and announcements, including the launches of Habana Gaudi-based Amazon EC2 instances, AWS Trainium, Amazon ECS Anywhere, Amazon EKS Anywhere, Lambda Container Support, AWS Proton, gp3 volumes for Amazon EBS, io2 Block Express for Amazon EBS, Amazon Aurora Serverless v2, Babelfish for Amazon Aurora PostgreSQL, AWS Glue Elastic Views, Amazon SageMaker Data Wrangler, Amazon SageMaker Feature Store, Amazon SageMaker Pipelines, Amazon DevOps Guru, Amazon QuickSight Q, Amazon Connect Wisdom, Amazon Connect Customer Profiles, Real-Time Contact Lens for Amazon Connect, Amazon Connect Tasks, Amazon Connect Voice ID, Amazon Monitron, Amazon Lookout for Equipment, AWS Panorama Appliance, AWS Panorama SDK, AWS Outposts in two new smaller sizes, and 12 additional AWS Local Zones. Guest speakers include Lori Beer, of JPMorgan Chase, Blake Scholl, of Boom, and David Gitlin, of Carrier.</p>
+                            <p>Andy Jassy, CEO of Amazon Web Services, delivers his AWS re:Invent 2020 keynote, 
+                                featuring the latest news and announcements, including the launches of Habana 
+                                Gaudi-based Amazon EC2 instances, AWS Trainium, Amazon ECS Anywhere, Amazon EKS 
+                                Anywhere, Lambda Container Support, AWS Proton, gp3 volumes for Amazon EBS, io2 
+                                Block Express for Amazon EBS, Amazon Aurora Serverless v2, Babelfish for Amazon 
+                                Aurora PostgreSQL, AWS Glue Elastic Views, Amazon SageMaker Data Wrangler, Amazon 
+                                SageMaker Feature Store, Amazon SageMaker Pipelines, Amazon DevOps Guru, Amazon 
+                                QuickSight Q, Amazon Connect Wisdom, Amazon Connect Customer Profiles, Real-Time 
+                                Contact Lens for Amazon Connect, Amazon Connect Tasks, Amazon Connect Voice ID, 
+                                Amazon Monitron, Amazon Lookout for Equipment, AWS Panorama Appliance, AWS Panorama 
+                                SDK, AWS Outposts in two new smaller sizes, and 12 additional AWS Local Zones. Guest 
+                                speakers include Lori Beer, of JPMorgan Chase, Blake Scholl, of Boom, and David Gitlin, of Carrier.</p>
                         </div>
                     </div>
                     <Features
@@ -68,26 +81,31 @@ AWS is a broadly adopted cloud platform that offers several on-demand operations
                 </section>
 
 
-
                 <section id="action" className="responsive">
                     <div className="vertical-center">
                         <div className="container">
-                            <div className="row">
-                                <div className="action take-tour">
-                                    <div className="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                                        <h1 className="title">Our Upcoming Event:</h1>
-                                        <p>AWS Engage <br />
-We, at AWS Cloud Community LPU, believe that knowledge shared is knowledge earned.
-Accepting and giving is the way of living. It keeps you updated in today's dynamic industry
-and can make you tomorrow's leader.</p>
+
+                             <div className="row">
+                                    <div className="col-sm-6 wow fadeInLeft">
+                                    <h1 className="title">Our Upcoming Event:</h1>
+                                        <p className="event-text">
+                                        AWS Engage 
+                                        <br />
+                                        We, at AWS Cloud Community LPU, believe that knowledge shared is knowledge earned.
+                                        Accepting and giving is the way of living. It keeps you updated in today's dynamic industry
+                                        and can make you tomorrow's leader.
+                                        </p>
                                     </div>
-                                    <div className="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                                        <div className="tour-button">
-                                            <a rel="noreferrer" target="_blank" href="https://bit.ly/2POa8PY" className="btn btn-common">GO TO EVENT</a>
-                                        </div>
+                                    <div className="col-sm-3 h-100">
+                                        <center>
+                                        <a rel="noreferrer" target="_blank" href="https://bit.ly/2POa8PY" className="btn btn-common">GO TO EVENT</a>
+                                        </center>
+                                    </div>
+                                    <div className="col-sm-3">
+                                            <img className="event-img" src={ Image } alt=""/>
                                     </div>
                                 </div>
-                            </div>
+
                         </div>
                     </div>
                 </section>
