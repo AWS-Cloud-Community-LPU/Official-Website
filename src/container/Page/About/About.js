@@ -106,9 +106,9 @@ class About extends Component {
 										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/rajit.jpg")' }}></div>
 										<p class="name " >Rajit Paul</p>
 										<div className="team-social">
-											<a className=" teamicon fa fa-facebook" href="https://www.facebook.com/rajit.paul/"></a>
-											<a className="teamicon fa fa-twitter" href="https://twitter.com/RajitPaul"></a>
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/rajitpaul/"></a>
+											<a className=" teamicon fa fa-facebook" href="https://www.facebook.com/rajit.paul/" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-twitter" href="https://twitter.com/RajitPaul" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/rajitpaul/" target="_blank" rel="noreferrer"></a>
 
 										</div>
 
@@ -117,10 +117,10 @@ class About extends Component {
 										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/prateek.jpg")' }}></div>
 										<p class="name prateek">Prateek Singh</p>
 										<div className="team-social">
-											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/profile.php?id=100003020273118"></a>
-											<a className="teamicon fa fa-twitter" href="https://twitter.com/onebutnotalone"></a>
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/prateek-singh-42356b12b"></a>
-											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/_prateek_singh_/"></a>
+											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/profile.php?id=100003020273118" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-twitter" href="https://twitter.com/onebutnotalone" target="_blank"></a>
+											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/prateek-singh-42356b12b" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/_prateek_singh_/" target="_blank" rel="noreferrer"></a>
 										</div>
 									</div>
 									<div class="col-lg-3 user anchoring">
@@ -128,7 +128,7 @@ class About extends Component {
 										<p class="name anjaliImage" id="anjaliImage">Anjali Thakur</p>
 										<div className="team-social">
 
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/anjalithakur21/"></a>
+											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/anjalithakur21/" target="_blank" rel="noreferrer"></a>
 
 										</div>
 									</div>
@@ -136,100 +136,91 @@ class About extends Component {
 										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/garvit.jpg")' }}></div>
 										<p class="name">Garvit Joshi</p>
 										<div className="team-social">
-											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/garvit9j"></a>
-											<a className="teamicon fa fa-twitter" href="https://twitter.com/garvit__joshi"></a>
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/garvit--joshi/"></a>
-											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/garvit_._/"></a>
+											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/garvit9j" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-twitter" href="https://twitter.com/garvit__joshi" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/garvit--joshi/" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/garvit_._/" target="_blank" rel="noreferrer"></a>
 										</div>
 									</div>
 									<div class="col-lg-3 user marketing">
 										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/kristina.jpg")' }}></div>
 										<p class="name">Kristina</p>
 										<div className="team-social">
-											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/kristina.barooah"></a>
-											<a className="teamicon fa fa-twitter" href="https://twitter.com/KristinaBarooah"></a>
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/kristina-barooah-322916169"></a>
-											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/kristinasarmabarooah/"></a>
+											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/kristina.barooah" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-twitter" href="https://twitter.com/KristinaBarooah" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/kristina-barooah-322916169" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/kristinasarmabarooah/" target="_blank" rel="noreferrer"></a>
 										</div>
 									</div>
 									<div class="col-lg-3 user technical">
 										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/santosh.png")' }}></div>
 										<p class="name">Santosh</p>
 										<div className="team-social">
-											<a className="teamicon fa fa-facebook" href="https://twitter.com/skpottumuthu"></a>
+											<a className="teamicon fa fa-facebook" href="https://twitter.com/skpottumuthu" target="_blank" rel="noreferrer"></a>
 
-											<a className="teamicon fa fa-linkedin" href="https://www.instagram.com/santosh__pottumuthu"></a>
-											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/santosh__pottumuthu"></a>
+											<a className="teamicon fa fa-linkedin" href="https://www.instagram.com/santosh__pottumuthu" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/santosh__pottumuthu" target="_blank" rel="noreferrer"></a>
 										</div>
 									</div>
 									<div class="col-lg-3 user developer">
 										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/bhaskar.jfif")' }}></div>
 										<p class="name">Bhaskar Jat</p>
 										<div className="team-social">
-											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/bhaskar.jat.73"></a>
-											<a className="teamicon fa fa-twitter" href="https://twitter.com/Bhaskar79011405"></a>
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/bhaskar-jat/"></a>
-											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/bhaskar_jat_/"></a>
+											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/bhaskar.jat.73" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-twitter" href="https://twitter.com/Bhaskar79011405" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/bhaskar-jat/" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/bhaskar_jat_/" target="_blank" rel="noreferrer"></a>
 										</div>
 									</div>
 									<div class="col-lg-3 user technical">
 										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/shivam.jpg")' }}></div>
 										<p class="name">Shivam Mishra</p>
 										<div className="team-social">
-											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/mshivam019"></a>
-											<a className="teamicon fa fa-twitter" href="https://twitter.com/MShivam190"></a>
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/shivam-mishra-019/"></a>
-											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/mshivam019/"></a>
+											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/mshivam019" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-twitter" href="https://twitter.com/MShivam190" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/shivam-mishra-019/" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/mshivam019/" target="_blank" rel="noreferrer"></a>
 										</div>
 									</div>
 									<div class="col-lg-3 user technical">
 										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/imran.jpeg")' }}></div>
 										<p class="name prateek">Imran Khan</p>
 										<div className="team-social">
-											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/profile.php?id=100005905788799"></a>
-											<a className="teamicon fa fa-twitter" href="https://twitter.com/imran_khan227"></a>
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/imran-khan-991324188/"></a>
-											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/immrwnnn_227/"></a>
+											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/profile.php?id=100005905788799" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-twitter" href="https://twitter.com/imran_khan227" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/imran-khan-991324188/" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/immrwnnn_227/" target="_blank" rel="noreferrer"></a>
 										</div>
 									</div>
 									<div class="col-lg-3 user content-developer anchoring">
 										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/ashutosh.jpg")' }}></div>
 										<p class="name prateek">Ashutosh Mohapatra</p>
 										<div className="team-social">
-											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/mohapatrashutosh/"></a>
-											<a className="teamicon fa fa-twitter" href="https://twitter.com/imashumohapatra"></a>
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/iamashutosh/"></a>
-											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/ashutosh__mohapatra/"></a>
+											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/mohapatrashutosh/" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-twitter" href="https://twitter.com/imashumohapatra" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/iamashutosh/" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/ashutosh__mohapatra/" target="_blank" rel="noreferrer"></a>
 										</div>
 									</div>
 									<div class="col-lg-3 user technical">
 										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/harneet.jfif")' }}></div>
 										<p class="name prateek">Harneet Kaur</p>
 										<div className="team-social">
-											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/harneetk.21"></a>
-											<a className="teamicon fa fa-twitter" href="https://twitter.com/harneetk21"></a>
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/harneetkaur1991/"></a>
-											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/harneet_k_engineer/"></a>
+											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/harneetk.21" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-twitter" href="https://twitter.com/harneetk21" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/harneetkaur1991/" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/harneet_k_engineer/" target="_blank" rel="noreferrer"></a>
 										</div>
 									</div>
-									<div class="col-lg-3 user technical">
-										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/dushyant.jfif")' }}></div>
-										<p class="name prateek">Dushyanth Desu</p>
-										<div className="team-social">
-											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/dushyanthdesu/"></a>
-											<a className="teamicon fa fa-twitter" href="https://twitter.com/DesuDushyanth"></a>
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/dushyanthdesu/"></a>
-											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/prinz_charmant/"></a>
-										</div>
-									</div>
+									
 									<div class="col-lg-3 user marketing">
 										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/lakshey.jfif")' }}></div>
 										<p class="name prateek">Lakshey banga</p>
 										<div className="team-social">
-											<a className="teamicon fa fa-facebook" href="http://facebook.com/lakshay.banga.5"></a>
+											<a className="teamicon fa fa-facebook" href="http://facebook.com/lakshay.banga.5" target="_blank" rel="noreferrer"></a>
 
-											<a className="teamicon fa fa-linkedin" href="http://www.linkedin.com/in/lakshey-banga"></a>
-											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/lakshay__banga"></a>
+											<a className="teamicon fa fa-linkedin" href="http://www.linkedin.com/in/lakshey-banga" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/lakshay__banga" target="_blank" rel="noreferrer"></a>
 										</div>
 									</div>
 									
@@ -237,10 +228,10 @@ class About extends Component {
 										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/arush.jpg")' }}></div>
 										<p class="name prateek">Arush Nigam</p>
 										<div className="team-social">
-											<a className="teamicon fa fa-facebook" href="https://touch.facebook.com/arush.nigam.75"></a>
-											<a className="teamicon fa fa-twitter" href="https://twitter.com/arush_nigam"></a>
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/arush-nigam/"></a>
-											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/aru5602/"></a>
+											<a className="teamicon fa fa-facebook" href="https://touch.facebook.com/arush.nigam.75" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-twitter" href="https://twitter.com/arush_nigam" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/arush-nigam/" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/aru5602/" target="_blank" rel="noreferrer"></a>
 										</div>
 									</div>
 									
@@ -249,9 +240,9 @@ class About extends Component {
 										<p class="name prateek">Ankit Ojha</p>
 										<div className="team-social">
 
-											<a className="teamicon fa fa-twitter" href="https://twitter.com/ankit_ojha07"></a>
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/ankitojha07/"></a>
-											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/codeforcoffee.in/"></a>
+											<a className="teamicon fa fa-twitter" href="https://twitter.com/ankit_ojha07" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/ankitojha07/" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/ankit_ojha07/" target="_blank" rel="noreferrer"></a>
 										</div>
 									</div>
 									<div class="col-lg-3 user anchoring">
@@ -259,18 +250,8 @@ class About extends Component {
 										<p class="name prateek">Brahmjit</p>
 										<div className="team-social">
 
-											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/brahmajit-mohapatra-730743169"></a>
-											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/brahmajit.2k"></a>
-										</div>
-									</div>
-									<div class="col-lg-3 user technical">
-										<div class="circle" style={{ backgroundImage: 'url("/images/aboutus/sami.jfif")' }}></div>
-										<p class="name prateek">Muhammad Sami Khanday</p>
-										<div className="team-social">
-											<a className="teamicon fa fa-facebook" href="https://www.facebook.com/iammsami"></a>
-											<a className="teamicon fa fa-twitter" href="https://twitter.com/msamikhanday"></a>
-											<a className="teamicon fa fa-linkedin" href="https://twitter.com/msamikhanday"></a>
-											<a className="teamicon fa fa-instagram" href="https://twitter.com/msamikhanday"></a>
+											<a className="teamicon fa fa-linkedin" href="https://www.linkedin.com/in/brahmajit-mohapatra-730743169" target="_blank" rel="noreferrer"></a>
+											<a className="teamicon fa fa-instagram" href="https://www.instagram.com/brahmajit.2k" target="_blank" rel="noreferrer"></a>
 										</div>
 									</div>
 								</div>
